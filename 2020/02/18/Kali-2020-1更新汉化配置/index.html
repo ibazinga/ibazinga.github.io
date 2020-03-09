@@ -111,7 +111,8 @@
 <pre><code>apt-get dist-upgrade</code></pre><p>清理安装包：</p>
 <pre><code>apt-get clean
 apt-get autoclean</code></pre><p>Two</p>
-<h3 id="推荐使用"><a href="#推荐使用" class="headerlink" title="推荐使用"></a>推荐使用</h3><pre><code>apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get clean</code></pre><h3 id="更新源"><a href="#更新源" class="headerlink" title="更新源"></a>更新源</h3><p>如果已会科学上网，不需要更新源文件，自我感觉Kali官方源可行。(￣▽￣)”</p>
+<h3 id="推荐使用"><a href="#推荐使用" class="headerlink" title="推荐使用"></a>推荐使用</h3><pre><code>apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get clean</code></pre><a id="more"></a>
+<h3 id="更新源"><a href="#更新源" class="headerlink" title="更新源"></a>更新源</h3><p>如果已会科学上网，不需要更新源文件，自我感觉Kali官方源可行。(￣▽￣)”</p>
 <p>Linux 更新源文件位于 /etc/apt/sources.list ，系统就是从这个文件中读取一些网址参数下载安装软件，默认的是 kali 官方源，我们可以修改为国内一些较快的源，例如阿里、中科大、网易等，加快下载速度。</p>
 <pre><code>vim /etc/apt/sources.list</code></pre><p>vim相关操作请自行学习</p>
 <p>找到并编辑上述 sources.list 源文件，替换为以下内容：</p>
@@ -262,13 +263,13 @@ apt-get install fcitx-googlepinyin</code></pre><p>然后重启，就会出现新
 <script>
     new Valine({
         el: '#vcomments',
-        app_id: '',
-        app_key: '',
+        app_id: 'UWw6ysFSXvQmEVvKl2q8bf1z-gzGzoHsz',
+        app_key: 'JaFu8ElvmrqP7yrAVNfp4LSC',
         path: window.location.pathname,
         notify: 'false',
         verify: 'false',
         avatar: 'mp',
-        placeholder: '给我的文章加点评论吧~',
+        placeholder: 'You jump,I jump!If you jump,I will not jump with you.',
         recordIP: true
     });
     const infoEle = document.querySelector('#vcomments .info');
@@ -315,7 +316,7 @@ apt-get install fcitx-googlepinyin</code></pre><p>然后重启，就会出现新
     <ul class="list-inline">
       <li>
         &copy;
-        2015-2020
+        2020
         ibazinga
       </li>
       <li>
@@ -358,7 +359,7 @@ apt-get install fcitx-googlepinyin</code></pre><p>然后重启，就会出现新
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="ibazinga"></a>
+    <a href="/"><img src="/images/ayer.png" alt="ibazinga"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -438,7 +439,7 @@ apt-get install fcitx-googlepinyin</code></pre><p>然后重启，就会出现新
 <script>
   try {
     var typed = new Typed("#subtitle", {
-      strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
+      strings: ['爱你', '开始于第一行', '结束于第三行'],
       startDelay: 0,
       typeSpeed: 200,
       loop: true,

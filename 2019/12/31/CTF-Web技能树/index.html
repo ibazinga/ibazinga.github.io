@@ -101,6 +101,7 @@
       
       <h1 id="CTF-WEB技能树"><a href="#CTF-WEB技能树" class="headerlink" title="CTF WEB技能树"></a>CTF WEB技能树</h1><p>虽然是分类写的但是知识都是成体系的要学会联系不同漏洞</p>
 <h2 id="基础内容"><a href="#基础内容" class="headerlink" title="基础内容"></a>基础内容</h2><p>php基本代码能力python写requests库脚本的能力<br>sql查询语句的基本应用后续再接触insert update之类的注入原理都是一样的<br>了解http协议 web服务的搭建过程和基本结构</p>
+<a id="more"></a>
 <h2 id="文件包含（LFI）"><a href="#文件包含（LFI）" class="headerlink" title="文件包含（LFI）"></a>文件包含（LFI）</h2><p>会用伪协议读取源码php:/filter/read=convert.base64-encode/resource=index.php 了解过滤情况下基本的变形php://filter/read=string.rot13/resource=index.php<br>包含上传的图片马getshell<br>日志污染getshell（典型：ssrf打smtp日志污染+include文件包含）<br>在allow_url_include=On的情况下可以包含远程文件</p>
 <h2 id="SQL注入"><a href="#SQL注入" class="headerlink" title="SQL注入"></a>SQL注入</h2><p>了解基本的闭合逃逸语句原理<br>了解万能密码在代码层次的原理</p>
 <h4 id="sql注入的三种基本类型："><a href="#sql注入的三种基本类型：" class="headerlink" title="sql注入的三种基本类型："></a>sql注入的三种基本类型：</h4><ul>
@@ -254,13 +255,13 @@
 <script>
     new Valine({
         el: '#vcomments',
-        app_id: '',
-        app_key: '',
+        app_id: 'UWw6ysFSXvQmEVvKl2q8bf1z-gzGzoHsz',
+        app_key: 'JaFu8ElvmrqP7yrAVNfp4LSC',
         path: window.location.pathname,
         notify: 'false',
         verify: 'false',
         avatar: 'mp',
-        placeholder: '给我的文章加点评论吧~',
+        placeholder: 'You jump,I jump!If you jump,I will not jump with you.',
         recordIP: true
     });
     const infoEle = document.querySelector('#vcomments .info');
@@ -307,7 +308,7 @@
     <ul class="list-inline">
       <li>
         &copy;
-        2015-2020
+        2020
         ibazinga
       </li>
       <li>
@@ -350,7 +351,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="ibazinga"></a>
+    <a href="/"><img src="/images/ayer.png" alt="ibazinga"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -430,7 +431,7 @@
 <script>
   try {
     var typed = new Typed("#subtitle", {
-      strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
+      strings: ['爱你', '开始于第一行', '结束于第三行'],
       startDelay: 0,
       typeSpeed: 200,
       loop: true,
