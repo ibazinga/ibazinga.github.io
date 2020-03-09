@@ -114,22 +114,20 @@
   </entry>
   
   <entry>
-    <title>robots</title>
-    <link href="http://yoursite.com/2020/03/06/robots/"/>
-    <id>http://yoursite.com/2020/03/06/robots/</id>
+    <title>view_source</title>
+    <link href="http://yoursite.com/2020/03/06/view_source/"/>
+    <id>http://yoursite.com/2020/03/06/view_source/</id>
     <published>2020-03-05T16:00:00.000Z</published>
-    <updated>2020-03-09T07:25:53.605Z</updated>
+    <updated>2020-03-09T07:25:29.554Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;robots&quot;&gt;&lt;a href=&quot;#robots&quot; class=&quot;headerlink&quot; title=&quot;robots&quot;&gt;&lt;/a&gt;robots&lt;/h1&gt;&lt;p&gt;是的，一片空白，，，&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/XdXAITL.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;h1 id=&quot;view-source&quot;&gt;&lt;a href=&quot;#view-source&quot; class=&quot;headerlink&quot; title=&quot;view_source&quot;&gt;&lt;/a&gt;view_source&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/j7BNCHh.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;无法使用右键查看网页源代码&lt;/p&gt;
 &lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;α&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;利用URL访问该网页的robots-txt文件&quot;&gt;&lt;a href=&quot;#利用URL访问该网页的robots-txt文件&quot; class=&quot;headerlink&quot; title=&quot;利用URL访问该网页的robots.txt文件&quot;&gt;&lt;/a&gt;利用URL访问该网页的robots.txt文件&lt;/h4&gt;&lt;p&gt; url/robots.txt&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/znnvfA6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;禁止网页爬虫爬取f1ag_1s_h3re.php文件&lt;/p&gt;
+&lt;h4 id=&quot;在url中通过view-source-的方法来访问源码&quot;&gt;&lt;a href=&quot;#在url中通过view-source-的方法来访问源码&quot; class=&quot;headerlink&quot; title=&quot;在url中通过view-source:的方法来访问源码&quot;&gt;&lt;/a&gt;在url中通过view-source:的方法来访问源码&lt;/h4&gt;&lt;p&gt;/view-source是一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令./&lt;/p&gt;
     
     </summary>
     
@@ -176,20 +174,22 @@
   </entry>
   
   <entry>
-    <title>view_source</title>
-    <link href="http://yoursite.com/2020/03/06/view_source/"/>
-    <id>http://yoursite.com/2020/03/06/view_source/</id>
+    <title>robots</title>
+    <link href="http://yoursite.com/2020/03/06/robots/"/>
+    <id>http://yoursite.com/2020/03/06/robots/</id>
     <published>2020-03-05T16:00:00.000Z</published>
-    <updated>2020-03-09T07:25:29.554Z</updated>
+    <updated>2020-03-09T07:25:53.605Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;view-source&quot;&gt;&lt;a href=&quot;#view-source&quot; class=&quot;headerlink&quot; title=&quot;view_source&quot;&gt;&lt;/a&gt;view_source&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/j7BNCHh.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;无法使用右键查看网页源代码&lt;/p&gt;
+      &lt;h1 id=&quot;robots&quot;&gt;&lt;a href=&quot;#robots&quot; class=&quot;headerlink&quot; title=&quot;robots&quot;&gt;&lt;/a&gt;robots&lt;/h1&gt;&lt;p&gt;是的，一片空白，，，&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/XdXAITL.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;α&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;在url中通过view-source-的方法来访问源码&quot;&gt;&lt;a href=&quot;#在url中通过view-source-的方法来访问源码&quot; class=&quot;headerlink&quot; title=&quot;在url中通过view-source:的方法来访问源码&quot;&gt;&lt;/a&gt;在url中通过view-source:的方法来访问源码&lt;/h4&gt;&lt;p&gt;/view-source是一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令./&lt;/p&gt;
+&lt;h4 id=&quot;利用URL访问该网页的robots-txt文件&quot;&gt;&lt;a href=&quot;#利用URL访问该网页的robots-txt文件&quot; class=&quot;headerlink&quot; title=&quot;利用URL访问该网页的robots.txt文件&quot;&gt;&lt;/a&gt;利用URL访问该网页的robots.txt文件&lt;/h4&gt;&lt;p&gt; url/robots.txt&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/znnvfA6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;禁止网页爬虫爬取f1ag_1s_h3re.php文件&lt;/p&gt;
     
     </summary>
     
