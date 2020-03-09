@@ -52,34 +52,6 @@
       <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-      <a href="/2020/03/06/cookie/" class="archive-article-date">
-  <time datetime="2020-03-05T16:00:00.000Z" itemprop="datePublished">03/06</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2020/03/06/cookie/"
-    >cookie</a
-  >
-</h2>
-  
-
-    </header>
-    
-      
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%CE%B1/">α</a>
-  </div>
-
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
       <a href="/2020/03/06/backup/" class="archive-article-date">
   <time datetime="2020-03-05T16:00:00.000Z" itemprop="datePublished">03/06</time>
 </a>
@@ -143,6 +115,34 @@
 <h2 itemprop="name">
   <a class="archive-article-title" href="/2020/03/06/view_source/"
     >view_source</a
+  >
+</h2>
+  
+
+    </header>
+    
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%CE%B1/">α</a>
+  </div>
+
+    
+    
+  </div>
+</article>
+      
+  
+  
+      <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2020/03/06/cookie/" class="archive-article-date">
+  <time datetime="2020-03-05T16:00:00.000Z" itemprop="datePublished">03/06</time>
+</a>
+       
+<h2 itemprop="name">
+  <a class="archive-article-title" href="/2020/03/06/cookie/"
+    >cookie</a
   >
 </h2>
   
@@ -236,13 +236,17 @@
       <a class="nav-item-link" href="/tags">标签</a>
     </li>
     
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
   </ul>
 </nav>
 <nav class="navbar navbar-bottom">
   <ul class="nav">
     <li class="nav-item">
       
-      <a class="nav-item-link nav-item-search"  title="Search">
+      <a class="nav-item-link nav-item-search"  title="搜索">
         <i class="ri-search-line"></i>
       </a>
       
@@ -296,8 +300,8 @@
   try {
     var typed = new Typed("#subtitle", {
       strings: ['我喜欢你', '第一句话是假的', '第二句话也是假的'],
-      startDelay: 0,
-      typeSpeed: 200,
+      startDelay: 100,
+      typeSpeed: 300,
       loop: true,
       backSpeed: 100,
       showCursor: true
@@ -426,6 +430,30 @@
     viewer_init()
 </script>
 
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true
+  }
+</script>
 
 
 

@@ -6,7 +6,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    Archives |  ibazinga
+    归档 |  ibazinga
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -34,7 +34,7 @@
   <article class="articles">
     
     
-    <h1 class="page-type-title">Archives</h1>
+    <h1 class="page-type-title">归档</h1>
     
     
   
@@ -49,6 +49,28 @@
     </div>
     <div class="archives">
       
+      <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2020/03/09/Merlin/" class="archive-article-date">
+  <time datetime="2020-03-09T14:20:34.526Z" itemprop="datePublished">03/09</time>
+</a>
+       
+<h2 itemprop="name">
+  <a class="archive-article-title" href="/2020/03/09/Merlin/"
+    >Merlin</a
+  >
+</h2>
+  
+
+    </header>
+    
+    
+  </div>
+</article>
+      
+  
+  
       <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
@@ -81,28 +103,6 @@
 <h2 itemprop="name">
   <a class="archive-article-title" href="/2020/03/08/Alan%20Mathison%20Turing/"
     >Alan Mathison Turing</a
-  >
-</h2>
-  
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/03/06/cookie/" class="archive-article-date">
-  <time datetime="2020-03-05T16:00:00.000Z" itemprop="datePublished">03/06</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2020/03/06/cookie/"
-    >cookie</a
   >
 </h2>
   
@@ -184,6 +184,28 @@
       <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
+      <a href="/2020/03/06/cookie/" class="archive-article-date">
+  <time datetime="2020-03-05T16:00:00.000Z" itemprop="datePublished">03/06</time>
+</a>
+       
+<h2 itemprop="name">
+  <a class="archive-article-title" href="/2020/03/06/cookie/"
+    >cookie</a
+  >
+</h2>
+  
+
+    </header>
+    
+    
+  </div>
+</article>
+      
+  
+  
+      <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
       <a href="/2020/02/29/BurpSuite-pro%E4%B8%8B%E8%BD%BD/" class="archive-article-date">
   <time datetime="2020-02-28T16:00:00.000Z" itemprop="datePublished">02/29</time>
 </a>
@@ -235,28 +257,6 @@
 <h2 itemprop="name">
   <a class="archive-article-title" href="/2020/02/05/Vmware%E5%AE%89%E8%A3%85Android-X86/"
     >VMware安装Android X86</a
-  >
-</h2>
-  
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/02/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%9AHexo/" class="archive-article-date">
-  <time datetime="2020-02-01T16:00:00.000Z" itemprop="datePublished">02/02</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2020/02/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%9AHexo/"
-    >博客搭建:Github Pages+Hexo</a
   >
 </h2>
   
@@ -349,13 +349,17 @@
       <a class="nav-item-link" href="/tags">标签</a>
     </li>
     
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
   </ul>
 </nav>
 <nav class="navbar navbar-bottom">
   <ul class="nav">
     <li class="nav-item">
       
-      <a class="nav-item-link nav-item-search"  title="Search">
+      <a class="nav-item-link nav-item-search"  title="搜索">
         <i class="ri-search-line"></i>
       </a>
       
@@ -409,8 +413,8 @@
   try {
     var typed = new Typed("#subtitle", {
       strings: ['我喜欢你', '第一句话是假的', '第二句话也是假的'],
-      startDelay: 0,
-      typeSpeed: 200,
+      startDelay: 100,
+      typeSpeed: 300,
       loop: true,
       backSpeed: 100,
       showCursor: true
@@ -539,6 +543,30 @@
     viewer_init()
 </script>
 
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true
+  }
+</script>
 
 
 
