@@ -227,6 +227,186 @@
 
 </article>
     
+    <article id="post-简陋的后台登陆界面" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/"
+    >简陋的文件上传</a
+  >
+</h2>
+ 
+<div class="article-topping">
+  <i class="ri-umbrella-line"></i>
+</div>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/" class="article-date">
+  <time datetime="2020-03-27T16:00:00.000Z" itemprop="datePublished">2020-03-28</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Demo/">Demo</a>
+  </div>
+
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <p><img src="https://i.imgur.com/z0bWShx.png" alt=""></p>
+<p><img src="https://i.imgur.com/KE1Pqx1.png" alt=""></p>
+<p><img src="https://i.imgur.com/lkrANmw.png" alt=""></p>
+<p>源码</p>
+<p>admin.html</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"zh-CN"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>Demo<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h3</span>&gt;</span>登录管理后台<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"admin.php"</span> <span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">enctype</span>=<span class="string">"multipart/form-data"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        账号：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"username"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        密码：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"password"</span> <span class="attr">name</span>=<span class="string">"password"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">name</span>=<span class="string">"登录"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>admin.php</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">$username=$_POST[<span class="string">'username'</span>];</span><br><span class="line">$password=$_POST[<span class="string">'password'</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> <span class="string">'Hi! '</span>;</span><br><span class="line"><span class="keyword">echo</span> $username;</span><br></pre></td></tr></table></figure>
+
+
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Demo/" rel="tag">Demo</a></li></ul>
+
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+
+</article>
+    
+    <article id="post-简陋的文件上传" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/"
+    >简陋的文件上传</a
+  >
+</h2>
+ 
+<div class="article-topping">
+  <i class="ri-umbrella-line"></i>
+</div>
+ 
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/" class="article-date">
+  <time datetime="2020-03-27T16:00:00.000Z" itemprop="datePublished">2020-03-28</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Demo/">Demo</a>
+  </div>
+
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <p><img src="https://i.imgur.com/ESm4qgg.png" alt=""></p>
+<p><img src="https://i.imgur.com/WCiinUq.png" alt=""></p>
+<p><img src="https://i.imgur.com/P1NFjNx.png" alt=""></p>
+<p>源码</p>
+<p>upload.html</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"zh-CN"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>文件上传<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-class">.div</span>&#123; </span></span><br><span class="line">        margin: auto; </span><br><span class="line">        width: 300px; </span><br><span class="line">        height: 130px; </span><br><span class="line">        border: 1px solid rgb(12, 12, 12);</span><br><span class="line">    &#125; </span><br><span class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"upload_file.php"</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">enctype</span>=<span class="string">"multipart/form-data"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"file"</span>&gt;</span>Filename:<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> <span class="attr">name</span>=<span class="string">"file"</span> <span class="attr">id</span>=<span class="string">"file"</span> /&gt;</span> </span><br><span class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">name</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"Submit"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>upload_file.php</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">if</span> ((($_FILES[<span class="string">"file"</span>][<span class="string">"type"</span>] == <span class="string">"image/gif"</span>)</span><br><span class="line">|| ($_FILES[<span class="string">"file"</span>][<span class="string">"type"</span>] == <span class="string">"image/jpg"</span>)</span><br><span class="line">|| ($_FILES[<span class="string">"file"</span>][<span class="string">"type"</span>] == <span class="string">"image/png"</span>))</span><br><span class="line">&amp;&amp; ($_FILES[<span class="string">"file"</span>][<span class="string">"size"</span>] &lt; <span class="number">20000</span>))</span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">if</span> ($_FILES[<span class="string">"file"</span>][<span class="string">"error"</span>] &gt; <span class="number">0</span>)</span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Return Code: "</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"error"</span>] . <span class="string">"&lt;br /&gt;"</span>;</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="keyword">else</span></span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Upload: "</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>] . <span class="string">"&lt;br /&gt;"</span>;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Type: "</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"type"</span>] . <span class="string">"&lt;br /&gt;"</span>;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Size: "</span> . ($_FILES[<span class="string">"file"</span>][<span class="string">"size"</span>] / <span class="number">1024</span>) . <span class="string">" Kb&lt;br /&gt;"</span>;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Temp file: "</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"tmp_name"</span>] . <span class="string">"&lt;br /&gt;"</span>;</span><br><span class="line">  </span><br><span class="line"> <span class="keyword">if</span> (file_exists(<span class="string">"upload/"</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>]))</span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">echo</span> $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>] . <span class="string">" already exists. "</span>;</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="keyword">else</span></span><br><span class="line"> &#123;</span><br><span class="line"> move_uploaded_file($_FILES[<span class="string">"file"</span>][<span class="string">"tmp_name"</span>],</span><br><span class="line"> <span class="string">"upload/"</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>]);</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Stored in: "</span> . <span class="string">"upload/"</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>];</span><br><span class="line"> &#125;</span><br><span class="line"> &#125;</span><br><span class="line"> &#125;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Invalid file"</span>;</span><br><span class="line"> &#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p>分享一款文件拖拽上传的前端界面</p>
+<p><img src="https://i.imgur.com/4zZ3fam.png" alt=""></p>
+<p><img src="https://i.imgur.com/6qt4nmT.png" alt=""></p>
+<p>源码<br>upload.html</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"demo.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--遮罩--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"overlay"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--模态框--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"modal"</span> <span class="attr">class</span>=<span class="string">"dropbox"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"items-container"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"close"</span> <span class="attr">style</span>=<span class="string">"cursor:pointer;float: right;width:20px"</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"css-close"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">"head"</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>拖拽文件至此<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"content"</span> <span class="attr">id</span>=<span class="string">"content"</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">table</span> <span class="attr">class</span>=<span class="string">"table"</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">tbody</span> <span class="attr">class</span>=<span class="string">"tbody"</span>&gt;</span><span class="tag">&lt;/<span class="name">tbody</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"footer"</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn"</span> <span class="attr">onclick</span>=<span class="string">"upload()"</span>&gt;</span>开始上传<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">'#'</span> <span class="attr">onclick</span>=<span class="string">'clearAll()'</span> <span class="attr">style</span>=<span class="string">'position:absolute;bottom:10px;right:30px;'</span>&gt;</span>清空所有<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--页面内容--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"margin-top:40vh;text-align: center;"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span>&gt;</span>拖拽上传演示模板。点击下方按钮，弹出模态框<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn"</span> <span class="attr">onclick</span>=<span class="string">"showModal()"</span>&gt;</span>点击上传<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--嵌入脚本--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"jquery-1.10.2.js"</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>  <span class="attr">src</span>=<span class="string">"demo.js"</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>demo.css</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.overlay</span>&#123;</span><br><span class="line">    <span class="attribute">z-index</span>: <span class="number">99</span>;</span><br><span class="line">    <span class="attribute">position</span>:fixed;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">    <span class="attribute">top</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">left</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#333</span>;</span><br><span class="line">    <span class="attribute">opacity</span>:<span class="number">0.5</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.dropbox</span>&#123;</span><br><span class="line">    <span class="attribute">z-index</span>: <span class="number">100</span>;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">    <span class="attribute">position</span>: fixed;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">500px</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">520px</span>;</span><br><span class="line">    <span class="attribute">margin</span>:auto;</span><br><span class="line">    <span class="attribute">top</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">right</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">bottom</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">left</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>:<span class="number">6px</span>;</span><br><span class="line">    <span class="attribute">transition-duration</span>: <span class="number">0.9s</span>;</span><br><span class="line">    <span class="attribute">-webkit-transition-duration</span>: <span class="number">0.9s</span>;</span><br><span class="line">    <span class="attribute">overflow</span>:hidden;</span><br><span class="line">    <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.items-container</span>&#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.content</span>&#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">3px</span> dashed gray;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">400px</span>;</span><br><span class="line">    <span class="attribute">overflow</span>: auto;</span><br><span class="line">    <span class="attribute">padding</span>:<span class="number">2px</span> <span class="number">8px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.head</span>&#123;</span><br><span class="line">    <span class="attribute">margin</span>:<span class="number">0px</span>;</span><br><span class="line">    <span class="attribute">font-size</span>:<span class="number">30px</span>;</span><br><span class="line">    <span class="attribute">color</span>:<span class="number">#aaa</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.footer</span>&#123;</span><br><span class="line">    <span class="attribute">margin</span>:<span class="number">5px</span> auto</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.btn</span>&#123;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: transparent;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">14px</span>;</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="number">500</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">7px</span> <span class="number">18px</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*画一个叉号，表示推出界面*/</span></span><br><span class="line"><span class="selector-class">.css-close</span>&#123;<span class="attribute">display</span>:inline-block; <span class="attribute">width</span>:<span class="number">15px</span>; <span class="attribute">height</span>:<span class="number">2px</span>; <span class="attribute">background</span>:<span class="number">#000</span>; <span class="attribute">font-size</span>:<span class="number">0</span>; <span class="attribute">line-height</span>:<span class="number">0</span>;<span class="attribute">vertical-align</span>:middle;<span class="attribute">-webkit-transform</span>: <span class="built_in">rotate</span>(<span class="number">45deg</span>);&#125;</span><br><span class="line"><span class="selector-class">.css-close</span><span class="selector-pseudo">:after</span> &#123; <span class="attribute">content</span>:<span class="string">'.'</span>; <span class="attribute">display</span>:block; <span class="attribute">width</span>:<span class="number">15px</span>; <span class="attribute">height</span>:<span class="number">2px</span>; <span class="attribute">background</span>:<span class="number">#000</span>;<span class="attribute">-webkit-transform</span>: <span class="built_in">rotate</span>(<span class="number">90deg</span>);&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*表格样式*/</span></span><br><span class="line"><span class="selector-class">.table</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">border-collapse</span>: collapse;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span><span class="selector-pseudo">:first-child</span> <span class="selector-tag">td</span>&#123;</span><br><span class="line">    <span class="attribute">border-top-width</span>: <span class="number">0px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span> <span class="selector-tag">td</span><span class="selector-pseudo">:last-child</span>&#123;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer;</span><br><span class="line">    <span class="attribute">color</span>: red;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span> <span class="selector-tag">td</span>&#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">8px</span>;</span><br><span class="line">    <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">    <span class="attribute">overflow</span>: hidden;</span><br><span class="line">    <span class="attribute">text-overflow</span>:ellipsis;</span><br><span class="line">    <span class="attribute">border-top</span>:<span class="number">1px</span> solid <span class="number">#9A9A9A</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#d5d5d5</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span><span class="selector-pseudo">:active</span>&#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#9A9A9A</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:link</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:blue;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:visited</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:blue;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:blue;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:active</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>demo.js</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">showModal</span>(<span class="params"></span>) </span>&#123;  <span class="comment">//打开上传框</span></span><br><span class="line">    <span class="keyword">var</span> modal = <span class="built_in">document</span>.getElementById(<span class="string">'modal'</span>);</span><br><span class="line">    <span class="keyword">var</span> overlay = <span class="built_in">document</span>.getElementsByClassName(<span class="string">'overlay'</span>)[<span class="number">0</span>];</span><br><span class="line">    overlay.style.display = <span class="string">'block'</span>;</span><br><span class="line">    modal.style.display = <span class="string">'block'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">closeModal</span>(<span class="params"></span>) </span>&#123;  <span class="comment">//关闭上传框</span></span><br><span class="line">    <span class="keyword">var</span> modal = <span class="built_in">document</span>.getElementById(<span class="string">'modal'</span>);</span><br><span class="line">    <span class="keyword">var</span> overlay = <span class="built_in">document</span>.getElementsByClassName(<span class="string">'overlay'</span>)[<span class="number">0</span>];</span><br><span class="line">    overlay.style.display = <span class="string">'none'</span>;</span><br><span class="line">    modal.style.display = <span class="string">'none'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//用DOM2级方法为右上角的叉号和黑色遮罩层添加事件：点击后关闭上传框</span></span><br><span class="line"><span class="built_in">document</span>.getElementsByClassName(<span class="string">'overlay'</span>)[<span class="number">0</span>].addEventListener(<span class="string">'click'</span>, closeModal, <span class="literal">false</span>);</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'close'</span>).addEventListener(<span class="string">'click'</span>, closeModal, <span class="literal">false</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//利用html5 FormData() API,创建一个接收文件的对象，因为可以多次拖拽，这里采用单例模式创建对象Dragfiles</span></span><br><span class="line"><span class="keyword">var</span> Dragfiles=(<span class="function"><span class="keyword">function</span> (<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> instance;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!instance)&#123;</span><br><span class="line">            instance = <span class="keyword">new</span> FormData();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> instance;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;());</span><br><span class="line"><span class="comment">//为Dragfiles添加一个清空所有文件的方法</span></span><br><span class="line">FormData.prototype.deleteAll=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> _this=<span class="keyword">this</span>;</span><br><span class="line">    <span class="keyword">this</span>.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">value,key</span>)</span>&#123;</span><br><span class="line">        _this.delete(key);</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//添加拖拽事件</span></span><br><span class="line"><span class="keyword">var</span> dz = <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>);</span><br><span class="line">dz.ondragover = <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</span><br><span class="line">    <span class="comment">//阻止浏览器默认打开文件的操作</span></span><br><span class="line">    ev.preventDefault();</span><br><span class="line">    <span class="comment">//拖入文件后边框颜色变红</span></span><br><span class="line">    <span class="keyword">this</span>.style.borderColor = <span class="string">'red'</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">dz.ondragleave = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="comment">//恢复边框颜色</span></span><br><span class="line">    <span class="keyword">this</span>.style.borderColor = <span class="string">'gray'</span>;</span><br><span class="line">&#125;</span><br><span class="line">dz.ondrop = <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</span><br><span class="line">    <span class="comment">//恢复边框颜色</span></span><br><span class="line">    <span class="keyword">this</span>.style.borderColor = <span class="string">'gray'</span>;</span><br><span class="line">    <span class="comment">//阻止浏览器默认打开文件的操作</span></span><br><span class="line">    ev.preventDefault();</span><br><span class="line">    <span class="keyword">var</span> files = ev.dataTransfer.files;</span><br><span class="line">    <span class="keyword">var</span> len=files.length,</span><br><span class="line">        i=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">var</span> frag=<span class="built_in">document</span>.createDocumentFragment();  <span class="comment">//为了减少js修改dom树的频度，先创建一个fragment，然后在fragment里操作</span></span><br><span class="line">    <span class="keyword">var</span> tr,time,size;</span><br><span class="line">    <span class="keyword">var</span> newForm=Dragfiles(); <span class="comment">//获取单例</span></span><br><span class="line">    <span class="keyword">var</span> it=newForm.entries(); <span class="comment">//创建一个迭代器，测试用</span></span><br><span class="line">    <span class="keyword">while</span>(i&lt;len)&#123;</span><br><span class="line">        tr=<span class="built_in">document</span>.createElement(<span class="string">'tr'</span>);</span><br><span class="line">        <span class="comment">//获取文件大小</span></span><br><span class="line">        size=<span class="built_in">Math</span>.round(files[i].size * <span class="number">100</span> / <span class="number">1024</span>) / <span class="number">100</span> + <span class="string">'KB'</span>;</span><br><span class="line">        <span class="comment">//获取格式化的修改时间</span></span><br><span class="line">        time = files[i].lastModifiedDate.toLocaleDateString() + <span class="string">' '</span>+files[i].lastModifiedDate.toTimeString().split(<span class="string">' '</span>)[<span class="number">0</span>];</span><br><span class="line">        tr.innerHTML=<span class="string">'&lt;td&gt;'</span>+files[i].name+<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>+time+<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>+size+<span class="string">'&lt;/td&gt;&lt;td&gt;删除&lt;/td&gt;'</span>;</span><br><span class="line">        <span class="built_in">console</span>.log(size+<span class="string">' '</span>+time);</span><br><span class="line">        frag.appendChild(tr);</span><br><span class="line">        <span class="comment">//添加文件到newForm</span></span><br><span class="line">        newForm.append(files[i].name,files[i]);</span><br><span class="line">        <span class="comment">//console.log(it.next());</span></span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">this</span>.childNodes[<span class="number">1</span>].childNodes[<span class="number">1</span>].appendChild(frag);</span><br><span class="line">    <span class="comment">//为什么是‘1’？文档里几乎每一样东西都是一个节点，甚至连空格和换行符都会被解释成节点。而且都包含在childNodes属性所返回的数组中.不同于jade模板</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">blink</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>).style.borderColor = <span class="string">'gray'</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//ajax上传文件</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">upload</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">document</span>.getElementsByTagName(<span class="string">'tbody'</span>)[<span class="number">0</span>].hasChildNodes()==<span class="literal">false</span>)&#123;</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>).style.borderColor = <span class="string">'red'</span>;</span><br><span class="line">        setTimeout(blink,<span class="number">200</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> data=Dragfiles(); <span class="comment">//获取formData</span></span><br><span class="line">    $.ajax(&#123;</span><br><span class="line">        url: <span class="string">'upload'</span>,</span><br><span class="line">        type: <span class="string">'POST'</span>,</span><br><span class="line">        data: data,</span><br><span class="line">        <span class="keyword">async</span>: <span class="literal">true</span>,</span><br><span class="line">        cache: <span class="literal">false</span>,</span><br><span class="line">        contentType: <span class="literal">false</span>,</span><br><span class="line">        processData: <span class="literal">false</span>,</span><br><span class="line">        success: <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">            alert(<span class="string">'succeed!'</span>)  <span class="comment">//可以替换为自己的方法</span></span><br><span class="line">            closeModal();</span><br><span class="line">            data.deleteAll(); <span class="comment">//清空formData</span></span><br><span class="line">            $(<span class="string">'.tbody'</span>).empty(); <span class="comment">//清空列表</span></span><br><span class="line">        &#125;,</span><br><span class="line">        error: <span class="function"><span class="keyword">function</span> (<span class="params">returndata</span>) </span>&#123;</span><br><span class="line">            alert(<span class="string">'failed!'</span>)  <span class="comment">//可以替换为自己的方法</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 用事件委托的方法为‘删除’添加点击事件，使用jquery中的on方法</span></span><br><span class="line">$(<span class="string">".tbody"</span>).on(<span class="string">'click'</span>,<span class="string">'tr td:last-child'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="comment">//删除拖拽框已有的文件</span></span><br><span class="line">    <span class="keyword">var</span> temp=Dragfiles();</span><br><span class="line">    <span class="keyword">var</span> key=$(<span class="keyword">this</span>).prev().prev().prev().text();</span><br><span class="line">    <span class="built_in">console</span>.log(key);</span><br><span class="line">    temp.delete(key);</span><br><span class="line">    $(<span class="keyword">this</span>).parent().remove();</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">//清空所有内容</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clearAll</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">document</span>.getElementsByTagName(<span class="string">'tbody'</span>)[<span class="number">0</span>].hasChildNodes()==<span class="literal">false</span>)&#123;</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>).style.borderColor = <span class="string">'red'</span>;</span><br><span class="line">        setTimeout(blink,<span class="number">300</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> data=Dragfiles(); </span><br><span class="line">    data.deleteAll(); <span class="comment">//清空formData</span></span><br><span class="line">    <span class="comment">//$('.tbody').empty(); 等同于以下方法</span></span><br><span class="line">    <span class="built_in">document</span>.getElementsByTagName(<span class="string">'tbody'</span>)[<span class="number">0</span>].innerHTML=<span class="string">''</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Demo/" rel="tag">Demo</a></li></ul>
+
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+
+</article>
+    
     <article id="post-cookie" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
@@ -348,13 +528,13 @@
   <div class="justified-gallery" id="gallery">
   
       <div>
-        <a class="fancybox" data-fancybox="images" data-caption="img_caption" href="/img_url" rel="gallery_ck7klyqqt000apo5d6wo5beum" title="img_caption">
+        <a class="fancybox" data-fancybox="images" data-caption="img_caption" href="/img_url" rel="gallery_ck8d31knn0002qc5defr4huxz" title="img_caption">
           <img src="/img_url" itemprop="image" alt="img_caption">
         </a>
       </div>
   
       <div>
-        <a class="fancybox" data-fancybox="images" data-caption="img_caption" href="/img_url" rel="gallery_ck7klyqqt000apo5d6wo5beum" title="img_caption">
+        <a class="fancybox" data-fancybox="images" data-caption="img_caption" href="/img_url" rel="gallery_ck8d31knn0002qc5defr4huxz" title="img_caption">
           <img src="/img_url" itemprop="image" alt="img_caption">
         </a>
       </div>
@@ -548,86 +728,6 @@
 
 </article>
     
-    <article id="post-view_source" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2020/03/06/view_source/"
-    >view_source</a
-  >
-</h2>
-  
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2020/03/06/view_source/" class="article-date">
-  <time datetime="2020-03-05T16:00:00.000Z" itemprop="datePublished">2020-03-06</time>
-</a>
-      
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%CE%B1/">α</a>
-  </div>
-
-      
-      
-      
-    </div>
-    
-
-    
-
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-
-
-      
-
-      
-      <h1 id="view-source"><a href="#view-source" class="headerlink" title="view_source"></a>view_source</h1><p><img src="https://i.imgur.com/j7BNCHh.png" alt=""></p>
-<p>无法使用右键查看网页源代码</p>
-<h2 id="Writeup"><a href="#Writeup" class="headerlink" title="Writeup"></a>Writeup</h2><ul>
-<li>α</li>
-</ul>
-<h4 id="在url中通过view-source-的方法来访问源码"><a href="#在url中通过view-source-的方法来访问源码" class="headerlink" title="在url中通过view-source:的方法来访问源码"></a>在url中通过view-source:的方法来访问源码</h4><p>/view-source是一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令./</p>
-      
-      <a class="article-more-link" href="/2020/03/06/view_source/">阅读更多...</a>
-      
-      
-      <!-- reward -->
-      
-    </div>
-    
-    
-      <!-- copyright -->
-      
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CTF/" rel="tag">CTF</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Web/" rel="tag">Web</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Writeup/" rel="tag">Writeup</a></li></ul>
-
-
-    </footer>
-
-  </div>
-
-  
-
-  
-  
-  
-
-  
-
-</article>
-    
     <article id="post-robots" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
@@ -710,7 +810,7 @@
 
 </article>
     
-    <article id="post-Kali-2020-1更新汉化配置" class="article article-type-post" itemscope
+    <article id="post-view_source" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -718,8 +818,8 @@
     <header class="article-header">
        
 <h2 itemprop="name">
-  <a class="article-title" href="/2020/02/18/Kali-2020-1%E6%9B%B4%E6%96%B0%E6%B1%89%E5%8C%96%E9%85%8D%E7%BD%AE/"
-    >Kali-2020.1更新汉化配置</a
+  <a class="article-title" href="/2020/03/06/view_source/"
+    >view_source</a
   >
 </h2>
   
@@ -729,12 +829,12 @@
 
     
     <div class="article-meta">
-      <a href="/2020/02/18/Kali-2020-1%E6%9B%B4%E6%96%B0%E6%B1%89%E5%8C%96%E9%85%8D%E7%BD%AE/" class="article-date">
-  <time datetime="2020-02-17T16:00:00.000Z" itemprop="datePublished">2020-02-18</time>
+      <a href="/2020/03/06/view_source/" class="article-date">
+  <time datetime="2020-03-05T16:00:00.000Z" itemprop="datePublished">2020-03-06</time>
 </a>
       
   <div class="article-category">
-    <a class="article-category-link" href="/categories/Kali/">Kali</a>
+    <a class="article-category-link" href="/categories/%CE%B1/">α</a>
   </div>
 
       
@@ -753,21 +853,14 @@
       
 
       
-      <p><img src="https://i.imgur.com/dRpyOSH.png" alt=""></p>
-<h2 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h2><p>首先了解一下apt和apt-get之间的区别</p>
-<p><a href="https://www.sysgeek.cn/apt-vs-apt-get/" target="_blank" rel="noopener">https://www.sysgeek.cn/apt-vs-apt-get/</a></p>
-<p>感兴趣的话可以深入探究</p>
-<p>One</p>
-<pre><code>apt update</code></pre><p>这个操作并没有开始更新软件，类似于将远程源中的最新版本信息更新到本地</p>
-<p>接下来才开始更新软件：</p>
-<pre><code>apt upgrade</code></pre><p>更新系统：</p>
-<pre><code>apt full-upgrade</code></pre><p>或者：</p>
-<pre><code>apt-get dist-upgrade</code></pre><p>清理安装包：</p>
-<pre><code>apt-get clean
-apt-get autoclean</code></pre><p>Two</p>
-<h3 id="推荐使用"><a href="#推荐使用" class="headerlink" title="推荐使用"></a>推荐使用</h3><pre><code>apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get clean</code></pre>
+      <h1 id="view-source"><a href="#view-source" class="headerlink" title="view_source"></a>view_source</h1><p><img src="https://i.imgur.com/j7BNCHh.png" alt=""></p>
+<p>无法使用右键查看网页源代码</p>
+<h2 id="Writeup"><a href="#Writeup" class="headerlink" title="Writeup"></a>Writeup</h2><ul>
+<li>α</li>
+</ul>
+<h4 id="在url中通过view-source-的方法来访问源码"><a href="#在url中通过view-source-的方法来访问源码" class="headerlink" title="在url中通过view-source:的方法来访问源码"></a>在url中通过view-source:的方法来访问源码</h4><p>/view-source是一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令./</p>
       
-      <a class="article-more-link" href="/2020/02/18/Kali-2020-1%E6%9B%B4%E6%96%B0%E6%B1%89%E5%8C%96%E9%85%8D%E7%BD%AE/">阅读更多...</a>
+      <a class="article-more-link" href="/2020/03/06/view_source/">阅读更多...</a>
       
       
       <!-- reward -->
@@ -780,87 +873,7 @@ apt-get autoclean</code></pre><p>Two</p>
     <footer class="article-footer">
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Kali-%E6%9B%B4%E6%96%B0/" rel="tag">Kali 更新</a></li></ul>
-
-
-    </footer>
-
-  </div>
-
-  
-
-  
-  
-  
-
-  
-
-</article>
-    
-    <article id="post-Vmware安装Android-X86" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2020/02/05/Vmware%E5%AE%89%E8%A3%85Android-X86/"
-    >VMware安装Android X86</a
-  >
-</h2>
-  
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2020/02/05/Vmware%E5%AE%89%E8%A3%85Android-X86/" class="article-date">
-  <time datetime="2020-02-04T16:00:00.000Z" itemprop="datePublished">2020-02-05</time>
-</a>
-      
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/VMware/">VMware</a>
-  </div>
-
-      
-      
-      
-    </div>
-    
-
-    
-
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-
-
-      
-
-      
-      <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>废话不多，淦它！</p>
-<p>选择第一项回车</p>
-<p>选择NO回车</p>
-<p>选择NEW回车</p>
-<p>选择Primary在回车</p>
-<p>保持默认直接回车</p>
-      
-      <a class="article-more-link" href="/2020/02/05/Vmware%E5%AE%89%E8%A3%85Android-X86/">阅读更多...</a>
-      
-      
-      <!-- reward -->
-      
-    </div>
-    
-    
-      <!-- copyright -->
-      
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android-X86/" rel="tag">Android X86</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CTF/" rel="tag">CTF</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Web/" rel="tag">Web</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Writeup/" rel="tag">Writeup</a></li></ul>
 
 
     </footer>
@@ -1022,7 +1035,7 @@ apt-get autoclean</code></pre><p>Two</p>
   try {
     var typed = new Typed("#subtitle", {
       strings: ['我喜欢你', '第一句话是假的', '第二句话也是假的'],
-      startDelay: 100,
+      startDelay: 50,
       typeSpeed: 300,
       loop: true,
       backSpeed: 100,

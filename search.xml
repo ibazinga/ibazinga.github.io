@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>简陋的文件上传</title>
+    <url>/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/</url>
+    <content><![CDATA[<p><img src="https://i.imgur.com/z0bWShx.png" alt=""></p>
+<p><img src="https://i.imgur.com/KE1Pqx1.png" alt=""></p>
+<p><img src="https://i.imgur.com/lkrANmw.png" alt=""></p>
+<p>源码</p>
+<p>admin.html</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"zh-CN"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>Demo<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h3</span>&gt;</span>登录管理后台<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"admin.php"</span> <span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">enctype</span>=<span class="string">"multipart/form-data"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        账号：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"username"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        密码：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"password"</span> <span class="attr">name</span>=<span class="string">"password"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">name</span>=<span class="string">"登录"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>admin.php</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">$username=$_POST[<span class="string">'username'</span>];</span><br><span class="line">$password=$_POST[<span class="string">'password'</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> <span class="string">'Hi! '</span>;</span><br><span class="line"><span class="keyword">echo</span> $username;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Demo</category>
+      </categories>
+      <tags>
+        <tag>Demo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简陋的文件上传</title>
+    <url>/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</url>
+    <content><![CDATA[<p><img src="https://i.imgur.com/ESm4qgg.png" alt=""></p>
+<p><img src="https://i.imgur.com/WCiinUq.png" alt=""></p>
+<p><img src="https://i.imgur.com/P1NFjNx.png" alt=""></p>
+<p>源码</p>
+<p>upload.html</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"zh-CN"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>文件上传<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-class">.div</span>&#123; </span></span><br><span class="line">        margin: auto; </span><br><span class="line">        width: 300px; </span><br><span class="line">        height: 130px; </span><br><span class="line">        border: 1px solid rgb(12, 12, 12);</span><br><span class="line">    &#125; </span><br><span class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"upload_file.php"</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">enctype</span>=<span class="string">"multipart/form-data"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"file"</span>&gt;</span>Filename:<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> <span class="attr">name</span>=<span class="string">"file"</span> <span class="attr">id</span>=<span class="string">"file"</span> /&gt;</span> </span><br><span class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">name</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"Submit"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>upload_file.php</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">if</span> ((($_FILES[<span class="string">"file"</span>][<span class="string">"type"</span>] == <span class="string">"image/gif"</span>)</span><br><span class="line">|| ($_FILES[<span class="string">"file"</span>][<span class="string">"type"</span>] == <span class="string">"image/jpg"</span>)</span><br><span class="line">|| ($_FILES[<span class="string">"file"</span>][<span class="string">"type"</span>] == <span class="string">"image/png"</span>))</span><br><span class="line">&amp;&amp; ($_FILES[<span class="string">"file"</span>][<span class="string">"size"</span>] &lt; <span class="number">20000</span>))</span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">if</span> ($_FILES[<span class="string">"file"</span>][<span class="string">"error"</span>] &gt; <span class="number">0</span>)</span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Return Code: "</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"error"</span>] . <span class="string">"&lt;br /&gt;"</span>;</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="keyword">else</span></span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Upload: "</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>] . <span class="string">"&lt;br /&gt;"</span>;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Type: "</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"type"</span>] . <span class="string">"&lt;br /&gt;"</span>;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Size: "</span> . ($_FILES[<span class="string">"file"</span>][<span class="string">"size"</span>] / <span class="number">1024</span>) . <span class="string">" Kb&lt;br /&gt;"</span>;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Temp file: "</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"tmp_name"</span>] . <span class="string">"&lt;br /&gt;"</span>;</span><br><span class="line">  </span><br><span class="line"> <span class="keyword">if</span> (file_exists(<span class="string">"upload/"</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>]))</span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">echo</span> $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>] . <span class="string">" already exists. "</span>;</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="keyword">else</span></span><br><span class="line"> &#123;</span><br><span class="line"> move_uploaded_file($_FILES[<span class="string">"file"</span>][<span class="string">"tmp_name"</span>],</span><br><span class="line"> <span class="string">"upload/"</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>]);</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Stored in: "</span> . <span class="string">"upload/"</span> . $_FILES[<span class="string">"file"</span>][<span class="string">"name"</span>];</span><br><span class="line"> &#125;</span><br><span class="line"> &#125;</span><br><span class="line"> &#125;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line"> &#123;</span><br><span class="line"> <span class="keyword">echo</span> <span class="string">"Invalid file"</span>;</span><br><span class="line"> &#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p>分享一款文件拖拽上传的前端界面</p>
+<p><img src="https://i.imgur.com/4zZ3fam.png" alt=""></p>
+<p><img src="https://i.imgur.com/6qt4nmT.png" alt=""></p>
+<p>源码<br>upload.html</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"demo.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--遮罩--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"overlay"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--模态框--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"modal"</span> <span class="attr">class</span>=<span class="string">"dropbox"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"items-container"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"close"</span> <span class="attr">style</span>=<span class="string">"cursor:pointer;float: right;width:20px"</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"css-close"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">"head"</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>拖拽文件至此<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"content"</span> <span class="attr">id</span>=<span class="string">"content"</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">table</span> <span class="attr">class</span>=<span class="string">"table"</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">tbody</span> <span class="attr">class</span>=<span class="string">"tbody"</span>&gt;</span><span class="tag">&lt;/<span class="name">tbody</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"footer"</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn"</span> <span class="attr">onclick</span>=<span class="string">"upload()"</span>&gt;</span>开始上传<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">'#'</span> <span class="attr">onclick</span>=<span class="string">'clearAll()'</span> <span class="attr">style</span>=<span class="string">'position:absolute;bottom:10px;right:30px;'</span>&gt;</span>清空所有<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--页面内容--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"margin-top:40vh;text-align: center;"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span>&gt;</span>拖拽上传演示模板。点击下方按钮，弹出模态框<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn"</span> <span class="attr">onclick</span>=<span class="string">"showModal()"</span>&gt;</span>点击上传<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--嵌入脚本--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"jquery-1.10.2.js"</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>  <span class="attr">src</span>=<span class="string">"demo.js"</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>demo.css</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.overlay</span>&#123;</span><br><span class="line">    <span class="attribute">z-index</span>: <span class="number">99</span>;</span><br><span class="line">    <span class="attribute">position</span>:fixed;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">    <span class="attribute">top</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">left</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#333</span>;</span><br><span class="line">    <span class="attribute">opacity</span>:<span class="number">0.5</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.dropbox</span>&#123;</span><br><span class="line">    <span class="attribute">z-index</span>: <span class="number">100</span>;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">    <span class="attribute">position</span>: fixed;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">500px</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">520px</span>;</span><br><span class="line">    <span class="attribute">margin</span>:auto;</span><br><span class="line">    <span class="attribute">top</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">right</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">bottom</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">left</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>:<span class="number">6px</span>;</span><br><span class="line">    <span class="attribute">transition-duration</span>: <span class="number">0.9s</span>;</span><br><span class="line">    <span class="attribute">-webkit-transition-duration</span>: <span class="number">0.9s</span>;</span><br><span class="line">    <span class="attribute">overflow</span>:hidden;</span><br><span class="line">    <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.items-container</span>&#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.content</span>&#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">3px</span> dashed gray;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">400px</span>;</span><br><span class="line">    <span class="attribute">overflow</span>: auto;</span><br><span class="line">    <span class="attribute">padding</span>:<span class="number">2px</span> <span class="number">8px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.head</span>&#123;</span><br><span class="line">    <span class="attribute">margin</span>:<span class="number">0px</span>;</span><br><span class="line">    <span class="attribute">font-size</span>:<span class="number">30px</span>;</span><br><span class="line">    <span class="attribute">color</span>:<span class="number">#aaa</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.footer</span>&#123;</span><br><span class="line">    <span class="attribute">margin</span>:<span class="number">5px</span> auto</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.btn</span>&#123;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: transparent;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">14px</span>;</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="number">500</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">7px</span> <span class="number">18px</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*画一个叉号，表示推出界面*/</span></span><br><span class="line"><span class="selector-class">.css-close</span>&#123;<span class="attribute">display</span>:inline-block; <span class="attribute">width</span>:<span class="number">15px</span>; <span class="attribute">height</span>:<span class="number">2px</span>; <span class="attribute">background</span>:<span class="number">#000</span>; <span class="attribute">font-size</span>:<span class="number">0</span>; <span class="attribute">line-height</span>:<span class="number">0</span>;<span class="attribute">vertical-align</span>:middle;<span class="attribute">-webkit-transform</span>: <span class="built_in">rotate</span>(<span class="number">45deg</span>);&#125;</span><br><span class="line"><span class="selector-class">.css-close</span><span class="selector-pseudo">:after</span> &#123; <span class="attribute">content</span>:<span class="string">'.'</span>; <span class="attribute">display</span>:block; <span class="attribute">width</span>:<span class="number">15px</span>; <span class="attribute">height</span>:<span class="number">2px</span>; <span class="attribute">background</span>:<span class="number">#000</span>;<span class="attribute">-webkit-transform</span>: <span class="built_in">rotate</span>(<span class="number">90deg</span>);&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*表格样式*/</span></span><br><span class="line"><span class="selector-class">.table</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">border-collapse</span>: collapse;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span><span class="selector-pseudo">:first-child</span> <span class="selector-tag">td</span>&#123;</span><br><span class="line">    <span class="attribute">border-top-width</span>: <span class="number">0px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span> <span class="selector-tag">td</span><span class="selector-pseudo">:last-child</span>&#123;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer;</span><br><span class="line">    <span class="attribute">color</span>: red;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span> <span class="selector-tag">td</span>&#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">8px</span>;</span><br><span class="line">    <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">    <span class="attribute">overflow</span>: hidden;</span><br><span class="line">    <span class="attribute">text-overflow</span>:ellipsis;</span><br><span class="line">    <span class="attribute">border-top</span>:<span class="number">1px</span> solid <span class="number">#9A9A9A</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#d5d5d5</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#content</span> <span class="selector-tag">tr</span><span class="selector-pseudo">:active</span>&#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#9A9A9A</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:link</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:blue;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:visited</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:blue;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:blue;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:active</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>demo.js</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">showModal</span>(<span class="params"></span>) </span>&#123;  <span class="comment">//打开上传框</span></span><br><span class="line">    <span class="keyword">var</span> modal = <span class="built_in">document</span>.getElementById(<span class="string">'modal'</span>);</span><br><span class="line">    <span class="keyword">var</span> overlay = <span class="built_in">document</span>.getElementsByClassName(<span class="string">'overlay'</span>)[<span class="number">0</span>];</span><br><span class="line">    overlay.style.display = <span class="string">'block'</span>;</span><br><span class="line">    modal.style.display = <span class="string">'block'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">closeModal</span>(<span class="params"></span>) </span>&#123;  <span class="comment">//关闭上传框</span></span><br><span class="line">    <span class="keyword">var</span> modal = <span class="built_in">document</span>.getElementById(<span class="string">'modal'</span>);</span><br><span class="line">    <span class="keyword">var</span> overlay = <span class="built_in">document</span>.getElementsByClassName(<span class="string">'overlay'</span>)[<span class="number">0</span>];</span><br><span class="line">    overlay.style.display = <span class="string">'none'</span>;</span><br><span class="line">    modal.style.display = <span class="string">'none'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//用DOM2级方法为右上角的叉号和黑色遮罩层添加事件：点击后关闭上传框</span></span><br><span class="line"><span class="built_in">document</span>.getElementsByClassName(<span class="string">'overlay'</span>)[<span class="number">0</span>].addEventListener(<span class="string">'click'</span>, closeModal, <span class="literal">false</span>);</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'close'</span>).addEventListener(<span class="string">'click'</span>, closeModal, <span class="literal">false</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//利用html5 FormData() API,创建一个接收文件的对象，因为可以多次拖拽，这里采用单例模式创建对象Dragfiles</span></span><br><span class="line"><span class="keyword">var</span> Dragfiles=(<span class="function"><span class="keyword">function</span> (<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> instance;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!instance)&#123;</span><br><span class="line">            instance = <span class="keyword">new</span> FormData();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> instance;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;());</span><br><span class="line"><span class="comment">//为Dragfiles添加一个清空所有文件的方法</span></span><br><span class="line">FormData.prototype.deleteAll=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> _this=<span class="keyword">this</span>;</span><br><span class="line">    <span class="keyword">this</span>.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">value,key</span>)</span>&#123;</span><br><span class="line">        _this.delete(key);</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//添加拖拽事件</span></span><br><span class="line"><span class="keyword">var</span> dz = <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>);</span><br><span class="line">dz.ondragover = <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</span><br><span class="line">    <span class="comment">//阻止浏览器默认打开文件的操作</span></span><br><span class="line">    ev.preventDefault();</span><br><span class="line">    <span class="comment">//拖入文件后边框颜色变红</span></span><br><span class="line">    <span class="keyword">this</span>.style.borderColor = <span class="string">'red'</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">dz.ondragleave = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="comment">//恢复边框颜色</span></span><br><span class="line">    <span class="keyword">this</span>.style.borderColor = <span class="string">'gray'</span>;</span><br><span class="line">&#125;</span><br><span class="line">dz.ondrop = <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</span><br><span class="line">    <span class="comment">//恢复边框颜色</span></span><br><span class="line">    <span class="keyword">this</span>.style.borderColor = <span class="string">'gray'</span>;</span><br><span class="line">    <span class="comment">//阻止浏览器默认打开文件的操作</span></span><br><span class="line">    ev.preventDefault();</span><br><span class="line">    <span class="keyword">var</span> files = ev.dataTransfer.files;</span><br><span class="line">    <span class="keyword">var</span> len=files.length,</span><br><span class="line">        i=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">var</span> frag=<span class="built_in">document</span>.createDocumentFragment();  <span class="comment">//为了减少js修改dom树的频度，先创建一个fragment，然后在fragment里操作</span></span><br><span class="line">    <span class="keyword">var</span> tr,time,size;</span><br><span class="line">    <span class="keyword">var</span> newForm=Dragfiles(); <span class="comment">//获取单例</span></span><br><span class="line">    <span class="keyword">var</span> it=newForm.entries(); <span class="comment">//创建一个迭代器，测试用</span></span><br><span class="line">    <span class="keyword">while</span>(i&lt;len)&#123;</span><br><span class="line">        tr=<span class="built_in">document</span>.createElement(<span class="string">'tr'</span>);</span><br><span class="line">        <span class="comment">//获取文件大小</span></span><br><span class="line">        size=<span class="built_in">Math</span>.round(files[i].size * <span class="number">100</span> / <span class="number">1024</span>) / <span class="number">100</span> + <span class="string">'KB'</span>;</span><br><span class="line">        <span class="comment">//获取格式化的修改时间</span></span><br><span class="line">        time = files[i].lastModifiedDate.toLocaleDateString() + <span class="string">' '</span>+files[i].lastModifiedDate.toTimeString().split(<span class="string">' '</span>)[<span class="number">0</span>];</span><br><span class="line">        tr.innerHTML=<span class="string">'&lt;td&gt;'</span>+files[i].name+<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>+time+<span class="string">'&lt;/td&gt;&lt;td&gt;'</span>+size+<span class="string">'&lt;/td&gt;&lt;td&gt;删除&lt;/td&gt;'</span>;</span><br><span class="line">        <span class="built_in">console</span>.log(size+<span class="string">' '</span>+time);</span><br><span class="line">        frag.appendChild(tr);</span><br><span class="line">        <span class="comment">//添加文件到newForm</span></span><br><span class="line">        newForm.append(files[i].name,files[i]);</span><br><span class="line">        <span class="comment">//console.log(it.next());</span></span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">this</span>.childNodes[<span class="number">1</span>].childNodes[<span class="number">1</span>].appendChild(frag);</span><br><span class="line">    <span class="comment">//为什么是‘1’？文档里几乎每一样东西都是一个节点，甚至连空格和换行符都会被解释成节点。而且都包含在childNodes属性所返回的数组中.不同于jade模板</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">blink</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>).style.borderColor = <span class="string">'gray'</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//ajax上传文件</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">upload</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">document</span>.getElementsByTagName(<span class="string">'tbody'</span>)[<span class="number">0</span>].hasChildNodes()==<span class="literal">false</span>)&#123;</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>).style.borderColor = <span class="string">'red'</span>;</span><br><span class="line">        setTimeout(blink,<span class="number">200</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> data=Dragfiles(); <span class="comment">//获取formData</span></span><br><span class="line">    $.ajax(&#123;</span><br><span class="line">        url: <span class="string">'upload'</span>,</span><br><span class="line">        type: <span class="string">'POST'</span>,</span><br><span class="line">        data: data,</span><br><span class="line">        <span class="keyword">async</span>: <span class="literal">true</span>,</span><br><span class="line">        cache: <span class="literal">false</span>,</span><br><span class="line">        contentType: <span class="literal">false</span>,</span><br><span class="line">        processData: <span class="literal">false</span>,</span><br><span class="line">        success: <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">            alert(<span class="string">'succeed!'</span>)  <span class="comment">//可以替换为自己的方法</span></span><br><span class="line">            closeModal();</span><br><span class="line">            data.deleteAll(); <span class="comment">//清空formData</span></span><br><span class="line">            $(<span class="string">'.tbody'</span>).empty(); <span class="comment">//清空列表</span></span><br><span class="line">        &#125;,</span><br><span class="line">        error: <span class="function"><span class="keyword">function</span> (<span class="params">returndata</span>) </span>&#123;</span><br><span class="line">            alert(<span class="string">'failed!'</span>)  <span class="comment">//可以替换为自己的方法</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 用事件委托的方法为‘删除’添加点击事件，使用jquery中的on方法</span></span><br><span class="line">$(<span class="string">".tbody"</span>).on(<span class="string">'click'</span>,<span class="string">'tr td:last-child'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="comment">//删除拖拽框已有的文件</span></span><br><span class="line">    <span class="keyword">var</span> temp=Dragfiles();</span><br><span class="line">    <span class="keyword">var</span> key=$(<span class="keyword">this</span>).prev().prev().prev().text();</span><br><span class="line">    <span class="built_in">console</span>.log(key);</span><br><span class="line">    temp.delete(key);</span><br><span class="line">    $(<span class="keyword">this</span>).parent().remove();</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">//清空所有内容</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clearAll</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">document</span>.getElementsByTagName(<span class="string">'tbody'</span>)[<span class="number">0</span>].hasChildNodes()==<span class="literal">false</span>)&#123;</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>).style.borderColor = <span class="string">'red'</span>;</span><br><span class="line">        setTimeout(blink,<span class="number">300</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> data=Dragfiles(); </span><br><span class="line">    data.deleteAll(); <span class="comment">//清空formData</span></span><br><span class="line">    <span class="comment">//$('.tbody').empty(); 等同于以下方法</span></span><br><span class="line">    <span class="built_in">document</span>.getElementsByTagName(<span class="string">'tbody'</span>)[<span class="number">0</span>].innerHTML=<span class="string">''</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Demo</category>
+      </categories>
+      <tags>
+        <tag>Demo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Merlin</title>
     <url>/2020/03/09/Merlin/</url>
     <content><![CDATA[<p>啊哈</p>
@@ -186,43 +236,6 @@
       </tags>
   </entry>
   <entry>
-    <title>view_source</title>
-    <url>/2020/03/06/view_source/</url>
-    <content><![CDATA[<h1 id="view-source"><a href="#view-source" class="headerlink" title="view_source"></a>view_source</h1><p><img src="https://i.imgur.com/j7BNCHh.png" alt=""></p>
-<p>无法使用右键查看网页源代码</p>
-<h2 id="Writeup"><a href="#Writeup" class="headerlink" title="Writeup"></a>Writeup</h2><ul>
-<li>α</li>
-</ul>
-<h4 id="在url中通过view-source-的方法来访问源码"><a href="#在url中通过view-source-的方法来访问源码" class="headerlink" title="在url中通过view-source:的方法来访问源码"></a>在url中通过view-source:的方法来访问源码</h4><p>/view-source是一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令./</p>
-<a id="more"></a>
-<p>以前的使用方法：在浏览器地址栏中输入</p>
-<pre><code>view-source: sURL</code></pre><p>回车即可看到当前网页的源代码了。</p>
-<p>JS用法:</p>
-<p>​    window.location=”view-source:” + window.location</p>
-<p><img src="https://i.imgur.com/jDoFlnb.png" alt=""></p>
-<p><img src="https://i.imgur.com/ewwthcJ.png" alt=""></p>
-<ul>
-<li>β</li>
-</ul>
-<h4 id="F12调出web开发者工具，浏览查看器页面"><a href="#F12调出web开发者工具，浏览查看器页面" class="headerlink" title="F12调出web开发者工具，浏览查看器页面"></a>F12调出web开发者工具，浏览查看器页面</h4><p><img src="https://i.imgur.com/1spwnXo.png" alt=""></p>
-<ul>
-<li>γ</li>
-</ul>
-<h4 id="使用Burpsuite抓包查看源代码"><a href="#使用Burpsuite抓包查看源代码" class="headerlink" title="使用Burpsuite抓包查看源代码"></a>使用Burpsuite抓包查看源代码</h4><p><img src="https://i.imgur.com/YIs0S24.png" alt=""></p>
-<pre><code>Flag=cyberpeace{69759f4dc46ad159300f1c451609c781}</code></pre><h2 id="view-source-协议"><a href="#view-source-协议" class="headerlink" title="view-source 协议"></a>view-source 协议</h2><p>一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令</p>
-<h4 id="以前的使用方法："><a href="#以前的使用方法：" class="headerlink" title="以前的使用方法："></a>以前的使用方法：</h4><p>在浏览器地址栏中输入</p>
-<pre><code>view-source: sURL</code></pre><p>回车即可看到当前网页的源代码了。</p>
-<h4 id="JS用法"><a href="#JS用法" class="headerlink" title="JS用法:"></a>JS用法:</h4><pre><code>window.location=&quot;view-source:&quot; + window.location</code></pre>]]></content>
-      <categories>
-        <category>α</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>Web</tag>
-        <tag>Writeup</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>robots</title>
     <url>/2020/03/06/robots/</url>
     <content><![CDATA[<h1 id="robots"><a href="#robots" class="headerlink" title="robots"></a>robots</h1><p>是的，一片空白，，，</p>
@@ -276,6 +289,43 @@ Allow: .gif$  允许抓取网页和gif格式图片
 
 Sitemap:网站地图  告诉爬虫这个页面是网站地图</code></pre><p><a href="https://blog.csdn.net/zhangyingchengqi/article/details/83348900" target="_blank" rel="noopener">https://blog.csdn.net/zhangyingchengqi/article/details/83348900</a></p>
 ]]></content>
+      <categories>
+        <category>α</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+        <tag>Web</tag>
+        <tag>Writeup</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>view_source</title>
+    <url>/2020/03/06/view_source/</url>
+    <content><![CDATA[<h1 id="view-source"><a href="#view-source" class="headerlink" title="view_source"></a>view_source</h1><p><img src="https://i.imgur.com/j7BNCHh.png" alt=""></p>
+<p>无法使用右键查看网页源代码</p>
+<h2 id="Writeup"><a href="#Writeup" class="headerlink" title="Writeup"></a>Writeup</h2><ul>
+<li>α</li>
+</ul>
+<h4 id="在url中通过view-source-的方法来访问源码"><a href="#在url中通过view-source-的方法来访问源码" class="headerlink" title="在url中通过view-source:的方法来访问源码"></a>在url中通过view-source:的方法来访问源码</h4><p>/view-source是一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令./</p>
+<a id="more"></a>
+<p>以前的使用方法：在浏览器地址栏中输入</p>
+<pre><code>view-source: sURL</code></pre><p>回车即可看到当前网页的源代码了。</p>
+<p>JS用法:</p>
+<p>​    window.location=”view-source:” + window.location</p>
+<p><img src="https://i.imgur.com/jDoFlnb.png" alt=""></p>
+<p><img src="https://i.imgur.com/ewwthcJ.png" alt=""></p>
+<ul>
+<li>β</li>
+</ul>
+<h4 id="F12调出web开发者工具，浏览查看器页面"><a href="#F12调出web开发者工具，浏览查看器页面" class="headerlink" title="F12调出web开发者工具，浏览查看器页面"></a>F12调出web开发者工具，浏览查看器页面</h4><p><img src="https://i.imgur.com/1spwnXo.png" alt=""></p>
+<ul>
+<li>γ</li>
+</ul>
+<h4 id="使用Burpsuite抓包查看源代码"><a href="#使用Burpsuite抓包查看源代码" class="headerlink" title="使用Burpsuite抓包查看源代码"></a>使用Burpsuite抓包查看源代码</h4><p><img src="https://i.imgur.com/YIs0S24.png" alt=""></p>
+<pre><code>Flag=cyberpeace{69759f4dc46ad159300f1c451609c781}</code></pre><h2 id="view-source-协议"><a href="#view-source-协议" class="headerlink" title="view-source 协议"></a>view-source 协议</h2><p>一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令</p>
+<h4 id="以前的使用方法："><a href="#以前的使用方法：" class="headerlink" title="以前的使用方法："></a>以前的使用方法：</h4><p>在浏览器地址栏中输入</p>
+<pre><code>view-source: sURL</code></pre><p>回车即可看到当前网页的源代码了。</p>
+<h4 id="JS用法"><a href="#JS用法" class="headerlink" title="JS用法:"></a>JS用法:</h4><pre><code>window.location=&quot;view-source:&quot; + window.location</code></pre>]]></content>
       <categories>
         <category>α</category>
       </categories>
@@ -374,215 +424,6 @@ apt-get install fcitx-googlepinyin</code></pre><p>然后重启，就会出现新
       </categories>
       <tags>
         <tag>Kali 更新</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VMware安装Android X86</title>
-    <url>/2020/02/05/Vmware%E5%AE%89%E8%A3%85Android-X86/</url>
-    <content><![CDATA[<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>废话不多，淦它！</p>
-<p>选择第一项回车</p>
-<p>选择NO回车</p>
-<p>选择NEW回车</p>
-<p>选择Primary在回车</p>
-<p>保持默认直接回车</p>
-<a id="more"></a>
-<p>新建了主分区后需要激活分区才能启动，也就是写磁盘引导信息，选择“Bootable”然后回车。“sda1”的Flags就是“Boot”。</p>
-<p>选择Write在回车</p>
-<p>输入yes在回车</p>
-<p>然后选中“Quit”然后回车，退出分区</p>
-<p>选择 “sda1”,即第一块硬盘的第一个分区，然后用“Tab”键选中“OK” 后回车</p>
-<p>这一步安装程序要我们选择要格式化的文件系统类型，选择ETX4，选OK回车下一步</p>
-<p>选择Yes，回车</p>
-<p>选择Yes，回车</p>
-<p>选择Yes，回车</p>
-<p>接下来会自动安装系统，直到安装完成，我们选择重启即可</p>
-<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><p>系统已经安装完成，但是我们发现重启之后是进不了系统的，出现黑屏，或者以下这种提示</p>
-<p>所以我们还需要进一步设置，需要先关闭虚拟机，之后在开机，开机选择第二项回车，进入debug模式</p>
-<p>回车输入才下命令，以 RW 模式重新挂载分区</p>
-<pre><code>mount -o remount,rw /mnt</code></pre><p>编辑文件：</p>
-<pre><code>vi /mnt/grub/menu.lst</code></pre><p>按i，进入编辑模式，在第一个启动项，quiet后面加入nomodeset，如图：</p>
-<p>nomodeset不加载任何显卡驱动模式</p>
-<p>按esc键取消编辑模式，输入：wq回车保存并退出，重启虚拟机即可。</p>
-<p>重启之后就可以进入系统了。</p>
-<p>提示：<br>如果安装app后闪退，在虚拟机的终端中运行enable_houdini命令。</p>
-<p>#####Vim#####</p>
-<p>1、复制</p>
-<p>1）单行复制，在命令模式下，将光标移动到将要复制的行处，按“yy”进行复制；</p>
-<p>2）多行复制，在命令模式下，将光标移动到将要复制的首行处，按“nyy”复制n行；其中n为1、2、3……</p>
-<p>2、粘贴<br>在命令模式下，将光标移动到将要粘贴的行处，按“p”进行粘贴</p>
-<p>3、删除<br>在命令模式下，将光标移动到将要删除的行处，按“dd”进行删除</p>
-<p><a href="https://blog.csdn.net/xhaimail/article/details/101020042" target="_blank" rel="noopener">原文链接</a></p>
-<p>adb连接在虚拟机console 输入ip a 获取ip 192<strong>**<br>使用adb connect 192**</strong>:5555连接即可</p>
-<p> 分别针对VMWare和Virtual Box两种虚拟机介绍安装配置方法，并描述了如何使用eclipse进行调试。</p>
-<p>设置虚拟机网络</p>
-<p>1、vmware设置</p>
-<p>a、安装虚拟机时需要使用nat模式</p>
-<p>b、如果/data/misc/dhcp目录不存在，则进入console模式创建</p>
-<pre><code>mkdir /data/misc/dhcp</code></pre><p>c、关闭虚拟机及vmware，修改vmx文件</p>
-<pre><code>ethernet0.virtualDev = &quot;vlance&quot;</code></pre><p>d、开启虚拟机，进入console模式</p>
-<pre><code>su 
-dhcpcd eth0</code></pre><p>e、设定dns，或者设置为与宿主机的dns一致的地址</p>
-<pre><code>setprop net.dns1 8.8.8.8</code></pre><p>2、virtualbox设置：</p>
-<p>使用桥接模式：</p>
-<p>a、使用netcfg命令查看eth0设备是否已经分配ip地址</p>
-<p>b、开启虚拟机，使用ALT+F1进入console模式，输入su切换root用户</p>
-<p>c、指定ip地址，执行如下脚本，ip地址需要和物理主机在同一个网段中</p>
-<pre><code>ifconfig eth0 192.168.120.200 netmask 255.255.255.0 up</code></pre><p>将物理主机网关加入路由表</p>
-<pre><code>route add default gw 192.168.120.254 dev eth0</code></pre><p>d、设定dns，或者设置为与物理主机的dns一致的地址，如202.106.196.115</p>
-<pre><code>setprop net.dns1 8.8.8.8</code></pre><p>如果使用NAT模式，需要使用dncpcd自动分配ip地址，dns要和物理主机一样，示例如下：<br>     dhcpcd<br>     ifconfig eth0 up<br>     setprop net.dns1 202.107.117.11</p>
-<p>另外还需要配置端口转发</p>
-<p>端口转发也可以在物理主机virtual box目录下使用如下命令：</p>
-<pre><code>VBoxManage modifyvm &quot;Your Android VB name&quot; --natpf1 adb,tcp,*,5555,*,5555</code></pre><p>3、使设置长期生效</p>
-<p>在console模式下的配置信息似乎不会保存，使用以下方法可以保证设置一直生效</p>
-<pre><code>Vi /etc/init.sh</code></pre><p>在文件末尾增加如下配置：</p>
-<pre><code>ifconfig eth0 192.168.120.200 netmask 255.255.255.0 up
-route add default gw 192.168.120.254 dev eth0
-setprop net.dns1 202.106.196.115</code></pre><p>配置分辨率，可以分别模拟手机和平板移动设备</p>
-<p>Virtual box可以配置分辨率，vmware还没有很好的办法，因此以Virtual box为例。</p>
-<p>1、在虚拟机添加自定义分辨率</p>
-<p>在虚拟机关闭以后进行。</p>
-<p>方法一：对应的虚拟机的vbox文件的“”下新开一行，添加以下内容</p>
-<pre><code>&lt;&lt;/span&gt;ExtraDataItem name=&quot;CustomVideoMode1&quot; value=&quot;480x800x16&quot;/&gt; 
-&lt;&lt;/span&gt;ExtraDataItem name=&quot;CustomVideoMode2&quot; value=&quot;320x480x16&quot;/&gt;</code></pre><p>方法二：执行命令，其中“VM name”替换为你自己的虚拟机的名字</p>
-<p>在dos模式下进入VirtualBox安装目录，默认为C:\Program Files\Oracle\VirtualBox，执行如下命令</p>
-<pre><code>VBoxManage setextradata &quot;VM name&quot; &quot;CustomVideoMode1&quot; &quot;480x800x16&quot; 
-VBoxManage setextradata &quot;VM name&quot; &quot;CustomVideoMode2&quot; &quot;320x480x16&quot;</code></pre><p>2、修改grub的menu.lst</p>
-<p>启动虚拟机，到debug mode下</p>
-<p>以 RW 模式重新挂载分区</p>
-<pre><code>mount -o remount,rw /mnt</code></pre><p>编辑文件：</p>
-<pre><code>vi /mnt/grub/menu.lst</code></pre><p>如果是手机分辨率则复制MDPI的几行，平板分辨率则复制HDPI的内容。把title改为自己想要的启动项名字，如“Android-x86 480×800x16”，在“kernel”后加上：</p>
-<pre><code>UVESA_MODE=480x800</code></pre><p>320×480的分辨率也类似进行。</p>
-<p>3、在debug mode下重启Android-x86<br>运行命令</p>
-<pre><code>/system/bin/reboot</code></pre><p>即可</p>
-<p>配置eclipse允许使用虚拟机远程调试开发</p>
-<p>1、查询ip地址</p>
-<p>进入cosole模式，使用netcfg或ip命令查询虚拟机的ip地址：</p>
-<p>其中eth0表示虚拟机的网络设备，后面的ip地址即为虚拟机的ip地址。</p>
-<p>2、配置eclipse</p>
-<p>使用Alt+F7返回图形界面。</p>
-<p>打开eclipse，进入Android开发插件的设定界面,选择ddms,勾选 Use ado host, 并在ADT host value 一栏填写虚拟机的ip地址,具体界面请参看下图：</p>
-<p>打开devices视图，如果未加载devices视图，可以使用如下方法打开devices视图<br>在devices视图中选择重启adb：</p>
-<p>或者也可以使用命令行重启adb，新版的adb命令位于platform-tools目录下：<br>    adb kill-server<br>    adb start-server</p>
-<p>重新启动后可以看到虚拟机设备已经在列表中了</p>
-<p>3、配置项目run或debug参数</p>
-<p>运行或调试程序时就可以选择虚拟机作为调试设备了</p>
-<p>如果eclipse找不到虚拟机设备，请检查系统是否安装豌豆荚等Android连接程序，如果安装需要</p>
-<p>停止相关进程。</p>
-<p>配置SD卡</p>
-<p>配置SD卡可以使用多种方式。</p>
-<p>1、将文件伪装成 SD 卡</p>
-<p>在console模式下执行如下脚本：</p>
-<pre><code>dd if=/dev/zero of=/data/sdcard.img bs=1024 count=65536
-losetup /dev/block/loop7 /data/sdcard.img
-newfs_msdos /dev/block/loop7</code></pre><p>其中65536表示64MB的SD卡，可以修改此数字增大SD卡大小</p>
-<p>重新启动虚拟机进入debug模式，以 RW模式重新挂载分区</p>
-<pre><code>mount -o remount,rw /mnt</code></pre><p>编辑文件：</p>
-<pre><code>vi /mnt/grub/menu.lst</code></pre><p>向 kernel 中添加一个参数：</p>
-<pre><code>SDCARD=/data/sdcard.img</code></pre><p>2、使用独立的分区</p>
-<p>首先需要在 VirtualBox 中创建一个新的硬盘，然后将其配属给 VM：</p>
-<p>然后以debug模式启动VM，新建的分区默认挂载为/dev/sdb文件</p>
-<p>创建分区前可以查询分区情况：</p>
-<pre><code>fdisk -l /dev/sdb</code></pre><p>使用 fdisk 创建一个新的分区。分区创建完成后，对它进行格式化：</p>
-<pre><code>fdisk /dev/sdb</code></pre><p>该命令后续操作包含如下参数：</p>
-<pre><code>输入 m 显示所有命令列示。
-输入 p 显示硬盘分割情形。
-输入 a 设定硬盘启动区。
-输入 n 设定新的硬盘分割区。
-输入 e 硬盘为[延伸]分割区(extend)。
-输入 p 硬盘为[主要]分割区(primary)。
-输入 t 改变硬盘分割区属性。
-输入 d 删除硬盘分割区属性。
-输入 q 结束不存入硬盘分割区属性。
-输入 w 结束并写入硬盘分割区属性</code></pre><p>##安装应用</p>
-<p>1、安装应用</p>
-<p>如果未连接设备，可以在物理主机的命令行模式下使用如下命令连接</p>
-<pre><code>adb connect 192.168.11.12</code></pre><p>可以使用如下命令安装apk：</p>
-<pre><code>adb install -r HelloWorld.apk</code></pre><p>但有时安装的时候报如下错误：</p>
-<pre><code>more than one device and emulator</code></pre><p>可以使用如下方法：</p>
-<p>查找设备：</p>
-<pre><code>adb devices
-List of devices attached
-emulator-5554   device</code></pre><p>安装</p>
-<pre><code>adb -s emulator-5554 install -r HelloWorld.apk</code></pre><p>2、卸载</p>
-<pre><code>adb uninstall HelloWorld.apk</code></pre><p>或者直接删除文件</p>
-<pre><code>adb -s emulator-5554 shell
-cd /data/app
-rm HelloWorld.apk
-exit</code></pre><p>删除系统应用：</p>
-<pre><code>adb remount （重新挂载系统分区，使系统分区重新可写）。
-adb shell
-cd system/app
-rm *.apk</code></pre><p>其实吧，没必要耗费精力搞这么个伪Android，对于我来说好无用啊！！！</p>
-<p>鸣谢大佬 </p>
-<p>   <a href="https://blog.csdn.net/Rocloud/article/details/24930511" target="_blank" rel="noopener">原文链接</a></p>
-]]></content>
-      <categories>
-        <category>VMware</category>
-      </categories>
-      <tags>
-        <tag>Android X86</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建:Github Pages+Hexo</title>
-    <url>/2020/02/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%9AHexo/</url>
-    <content><![CDATA[<p><img src="https://i.imgur.com/UIIq7FV.png" alt=""></p>
-<h1 id="Hexo-博客框架"><a href="#Hexo-博客框架" class="headerlink" title="Hexo 博客框架"></a>Hexo 博客框架</h1><p>00 安装 Node.js  </p>
-<pre><code>https://nodejs.org/zh-cn/</code></pre><p>选择 LTS（长期支持版）</p>
-<h2 id="以管理员方式打开cmd"><a href="#以管理员方式打开cmd" class="headerlink" title="以管理员方式打开cmd"></a>以管理员方式打开cmd</h2><pre><code>注：runas /user:administrator &quot;cmd/k&quot;</code></pre><p>01 查看版本</p>
-<pre><code>node -v
-npm -v</code></pre><a id="more"></a>
-<p>02 安装cnpm<br>    npm install -g cnpm –reistry=<a href="https://registry.npm.taobo.org" target="_blank" rel="noopener">https://registry.npm.taobo.org</a></p>
-<p>注：淘宝镜像源</p>
-<pre><code>cnpm -v</code></pre><p>03 全局安装hexo-cli</p>
-<pre><code>cnpm install -g hexo-cli
-
-hexo -v            查看  hexo-cli项 与 node项</code></pre><h2 id="C-Users-administertor路径下新建文件夹blog"><a href="#C-Users-administertor路径下新建文件夹blog" class="headerlink" title="C:\Users\administertor路径下新建文件夹blog"></a>C:\Users\administertor路径下新建文件夹blog</h2><p>如果将来出错，干掉它！</p>
-<p>重新来过</p>
-<p>04 cd blog</p>
-<pre><code>hexo init      初始化博客
-
-hexo server    启动博客</code></pre><p>###本地预览###</p>
-<pre><code>http://localhost:4000</code></pre><p>操作成功之后会出现博客界面</p>
-<p><img src="https://i.imgur.com/QDN9AwO.png" alt=""></p>
-<p>恭喜你，即将成功</p>
-<p>###新建博文###<br>    hexo new “新建文章名称”</p>
-<p>05 接下来就需要创作和编辑内容了（请自行学习）</p>
-<pre><code> cd ../..    重新生成，退回至blog 目录
-
-
-hexo clean
-
-hexo generate
-
-hexo server （重新启动）</code></pre><p>本地启动完成</p>
-<pre><code>Ctrl+c 结束</code></pre><h2 id="通过Github部署至远端"><a href="#通过Github部署至远端" class="headerlink" title="通过Github部署至远端"></a>通过Github部署至远端</h2><p>06 新建一个仓库  New repository</p>
-<pre><code>Repository name   用户名.github.io</code></pre><p>Create repository</p>
-<p>07 blog目录下安装Git部署插件</p>
-<pre><code>cnpm install hexo-deployer-git --save</code></pre><p>08 设置_config.yml文件</p>
-<pre><code>notepad _config.yml
-
-type: git
-repo: 仓库地址
-branch: master</code></pre><h2 id="部署至远端"><a href="#部署至远端" class="headerlink" title="部署至远端"></a>部署至远端</h2><pre><code>hexo d</code></pre><p>09 输入Github账号，密码</p>
-<p>注意：需提前git设置用户名和邮箱地址</p>
-<pre><code>$ git config --global user.name &quot;John Doe&quot;
-$ git config --global user.email &quot;johndoe@example.com&quot;</code></pre><p>###拓展——更换博客主题###</p>
-<p>例：在blog目录中下载主题</p>
-<pre><code>git clone https://github.com/litten/hexo-yilia.git themes/yilia</code></pre><p>  哎，clone的贼慢，太难了</p>
-<p>10 修改_config.yml文件</p>
-<pre><code>notepad _config.yml</code></pre><p>theme: landscape&gt;&gt;&gt;yilia 更改主题名称</p>
-<pre><code>hexo clean
-hexo generate
-hexo server    
-
-hexo deploy</code></pre><h2 id="感谢-codesheep-cn"><a href="#感谢-codesheep-cn" class="headerlink" title="感谢 codesheep.cn"></a>感谢 <a href="www.codesheep.cn">codesheep.cn</a></h2><p> <a href="https://www.bilibili.com/video/av44544186?t=1644" target="_blank" rel="noopener">视频教程链接</a></p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>

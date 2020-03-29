@@ -65,7 +65,7 @@
     
     
     
-    <article id="post-博客搭建：Hexo" class="article article-type-post" itemscope
+    <article id="post-Kali-2020-1更新汉化配置" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -73,8 +73,8 @@
     <header class="article-header">
        
 <h2 itemprop="name">
-  <a class="article-title" href="/2020/02/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%9AHexo/"
-    >博客搭建:Github Pages+Hexo</a
+  <a class="article-title" href="/2020/02/18/Kali-2020-1%E6%9B%B4%E6%96%B0%E6%B1%89%E5%8C%96%E9%85%8D%E7%BD%AE/"
+    >Kali-2020.1更新汉化配置</a
   >
 </h2>
   
@@ -84,12 +84,12 @@
 
     
     <div class="article-meta">
-      <a href="/2020/02/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%9AHexo/" class="article-date">
-  <time datetime="2020-02-01T16:00:00.000Z" itemprop="datePublished">2020-02-02</time>
+      <a href="/2020/02/18/Kali-2020-1%E6%9B%B4%E6%96%B0%E6%B1%89%E5%8C%96%E9%85%8D%E7%BD%AE/" class="article-date">
+  <time datetime="2020-02-17T16:00:00.000Z" itemprop="datePublished">2020-02-18</time>
 </a>
       
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a>
+    <a class="article-category-link" href="/categories/Kali/">Kali</a>
   </div>
 
       
@@ -108,14 +108,21 @@
       
 
       
-      <p><img src="https://i.imgur.com/UIIq7FV.png" alt=""></p>
-<h1 id="Hexo-博客框架"><a href="#Hexo-博客框架" class="headerlink" title="Hexo 博客框架"></a>Hexo 博客框架</h1><p>00 安装 Node.js  </p>
-<pre><code>https://nodejs.org/zh-cn/</code></pre><p>选择 LTS（长期支持版）</p>
-<h2 id="以管理员方式打开cmd"><a href="#以管理员方式打开cmd" class="headerlink" title="以管理员方式打开cmd"></a>以管理员方式打开cmd</h2><pre><code>注：runas /user:administrator &quot;cmd/k&quot;</code></pre><p>01 查看版本</p>
-<pre><code>node -v
-npm -v</code></pre>
+      <p><img src="https://i.imgur.com/dRpyOSH.png" alt=""></p>
+<h2 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h2><p>首先了解一下apt和apt-get之间的区别</p>
+<p><a href="https://www.sysgeek.cn/apt-vs-apt-get/" target="_blank" rel="noopener">https://www.sysgeek.cn/apt-vs-apt-get/</a></p>
+<p>感兴趣的话可以深入探究</p>
+<p>One</p>
+<pre><code>apt update</code></pre><p>这个操作并没有开始更新软件，类似于将远程源中的最新版本信息更新到本地</p>
+<p>接下来才开始更新软件：</p>
+<pre><code>apt upgrade</code></pre><p>更新系统：</p>
+<pre><code>apt full-upgrade</code></pre><p>或者：</p>
+<pre><code>apt-get dist-upgrade</code></pre><p>清理安装包：</p>
+<pre><code>apt-get clean
+apt-get autoclean</code></pre><p>Two</p>
+<h3 id="推荐使用"><a href="#推荐使用" class="headerlink" title="推荐使用"></a>推荐使用</h3><pre><code>apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get clean</code></pre>
       
-      <a class="article-more-link" href="/2020/02/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%9AHexo/">阅读更多...</a>
+      <a class="article-more-link" href="/2020/02/18/Kali-2020-1%E6%9B%B4%E6%96%B0%E6%B1%89%E5%8C%96%E9%85%8D%E7%BD%AE/">阅读更多...</a>
       
       
       <!-- reward -->
@@ -128,7 +135,7 @@ npm -v</code></pre>
     <footer class="article-footer">
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Kali-%E6%9B%B4%E6%96%B0/" rel="tag">Kali 更新</a></li></ul>
 
 
     </footer>
@@ -366,7 +373,7 @@ npm -v</code></pre>
   try {
     var typed = new Typed("#subtitle", {
       strings: ['我喜欢你', '第一句话是假的', '第二句话也是假的'],
-      startDelay: 100,
+      startDelay: 50,
       typeSpeed: 300,
       loop: true,
       backSpeed: 100,
