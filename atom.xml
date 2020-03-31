@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-29T13:48:31.350Z</updated>
+  <updated>2020-03-31T00:50:28.563Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,17 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>简陋的后台登陆界面</title>
-    <link href="http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/"/>
-    <id>http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/</id>
-    <published>2020-03-27T16:00:00.000Z</published>
-    <updated>2020-03-29T13:48:31.350Z</updated>
+    <title>简陋的注册登录界面</title>
+    <link href="http://yoursite.com/2020/03/31/%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2/"/>
+    <id>http://yoursite.com/2020/03/31/%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2/</id>
+    <published>2020-03-30T16:00:00.000Z</published>
+    <updated>2020-03-31T00:50:28.563Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-19-1585489674661.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-19&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-45.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-45&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-57.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-57&quot;&gt;&lt;/p&gt;
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-30_21-47-31.png&quot;
+        
+      
     
     </summary>
     
@@ -51,6 +55,29 @@
       &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-53-22.png&quot; alt=&quot;Snipaste_2020-03-29_20-53-22&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-56-29.png&quot; alt=&quot;Snipaste_2020-03-29_20-56-29&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-56-40.png&quot; alt=&quot;Snipaste_2020-03-29_20-56-40&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Demo" scheme="http://yoursite.com/categories/Demo/"/>
+    
+    
+      <category term="Demo" scheme="http://yoursite.com/tags/Demo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简陋的后台登陆界面</title>
+    <link href="http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/"/>
+    <id>http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/</id>
+    <published>2020-03-27T16:00:00.000Z</published>
+    <updated>2020-03-29T13:48:31.350Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-19-1585489674661.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-19&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-45.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-45&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-57.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-57&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -115,7 +142,7 @@
     <link href="http://yoursite.com/2020/03/08/Alan%20Mathison%20Turing/"/>
     <id>http://yoursite.com/2020/03/08/Alan%20Mathison%20Turing/</id>
     <published>2020-03-08T14:17:57.000Z</published>
-    <updated>2020-03-09T07:27:02.945Z</updated>
+    <updated>2020-03-31T00:22:21.704Z</updated>
     
     <summary type="html">
     
