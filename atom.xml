@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-31T00:55:29.160Z</updated>
+  <updated>2020-04-08T14:38:44.122Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/03/31/%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2/"/>
     <id>http://yoursite.com/2020/03/31/%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2/</id>
     <published>2020-03-30T16:00:00.000Z</published>
-    <updated>2020-03-31T00:55:29.160Z</updated>
+    <updated>2020-04-08T14:38:44.122Z</updated>
     
     <summary type="html">
     
@@ -160,6 +160,32 @@
   </entry>
   
   <entry>
+    <title>backup</title>
+    <link href="http://yoursite.com/2020/03/06/backup/"/>
+    <id>http://yoursite.com/2020/03/06/backup/</id>
+    <published>2020-03-05T16:00:00.000Z</published>
+    <updated>2020-03-09T07:27:29.587Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;backup&quot;&gt;&lt;a href=&quot;#backup&quot; class=&quot;headerlink&quot; title=&quot;backup&quot;&gt;&lt;/a&gt;backup&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/eQ1rXd0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;h3 id=&quot;尝试&quot;&gt;&lt;a href=&quot;#尝试&quot; class=&quot;headerlink&quot; title=&quot;尝试&quot;&gt;&lt;/a&gt;尝试&lt;/h3&gt;&lt;h4 id=&quot;index-php-save&quot;&gt;&lt;a href=&quot;#index-php-save&quot; class=&quot;headerlink&quot; title=&quot;index.php.save&quot;&gt;&lt;/a&gt;index.php.save&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hIYytPH.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="α" scheme="http://yoursite.com/categories/%CE%B1/"/>
+    
+    
+      <category term="CTF" scheme="http://yoursite.com/tags/CTF/"/>
+    
+      <category term="Web" scheme="http://yoursite.com/tags/Web/"/>
+    
+      <category term="Writeup" scheme="http://yoursite.com/tags/Writeup/"/>
+    
+  </entry>
+  
+  <entry>
     <title>cookie</title>
     <link href="http://yoursite.com/2020/03/06/cookie/"/>
     <id>http://yoursite.com/2020/03/06/cookie/</id>
@@ -190,16 +216,20 @@
   </entry>
   
   <entry>
-    <title>backup</title>
-    <link href="http://yoursite.com/2020/03/06/backup/"/>
-    <id>http://yoursite.com/2020/03/06/backup/</id>
+    <title>view_source</title>
+    <link href="http://yoursite.com/2020/03/06/view_source/"/>
+    <id>http://yoursite.com/2020/03/06/view_source/</id>
     <published>2020-03-05T16:00:00.000Z</published>
-    <updated>2020-03-09T07:27:29.587Z</updated>
+    <updated>2020-03-09T07:25:29.554Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;backup&quot;&gt;&lt;a href=&quot;#backup&quot; class=&quot;headerlink&quot; title=&quot;backup&quot;&gt;&lt;/a&gt;backup&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/eQ1rXd0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;h3 id=&quot;尝试&quot;&gt;&lt;a href=&quot;#尝试&quot; class=&quot;headerlink&quot; title=&quot;尝试&quot;&gt;&lt;/a&gt;尝试&lt;/h3&gt;&lt;h4 id=&quot;index-php-save&quot;&gt;&lt;a href=&quot;#index-php-save&quot; class=&quot;headerlink&quot; title=&quot;index.php.save&quot;&gt;&lt;/a&gt;index.php.save&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hIYytPH.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;h1 id=&quot;view-source&quot;&gt;&lt;a href=&quot;#view-source&quot; class=&quot;headerlink&quot; title=&quot;view_source&quot;&gt;&lt;/a&gt;view_source&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/j7BNCHh.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;无法使用右键查看网页源代码&lt;/p&gt;
+&lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;α&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;在url中通过view-source-的方法来访问源码&quot;&gt;&lt;a href=&quot;#在url中通过view-source-的方法来访问源码&quot; class=&quot;headerlink&quot; title=&quot;在url中通过view-source:的方法来访问源码&quot;&gt;&lt;/a&gt;在url中通过view-source:的方法来访问源码&lt;/h4&gt;&lt;p&gt;/view-source是一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令./&lt;/p&gt;
     
     </summary>
     
@@ -232,36 +262,6 @@
 &lt;h4 id=&quot;利用URL访问该网页的robots-txt文件&quot;&gt;&lt;a href=&quot;#利用URL访问该网页的robots-txt文件&quot; class=&quot;headerlink&quot; title=&quot;利用URL访问该网页的robots.txt文件&quot;&gt;&lt;/a&gt;利用URL访问该网页的robots.txt文件&lt;/h4&gt;&lt;p&gt; url/robots.txt&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/znnvfA6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;禁止网页爬虫爬取f1ag_1s_h3re.php文件&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="α" scheme="http://yoursite.com/categories/%CE%B1/"/>
-    
-    
-      <category term="CTF" scheme="http://yoursite.com/tags/CTF/"/>
-    
-      <category term="Web" scheme="http://yoursite.com/tags/Web/"/>
-    
-      <category term="Writeup" scheme="http://yoursite.com/tags/Writeup/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>view_source</title>
-    <link href="http://yoursite.com/2020/03/06/view_source/"/>
-    <id>http://yoursite.com/2020/03/06/view_source/</id>
-    <published>2020-03-05T16:00:00.000Z</published>
-    <updated>2020-03-09T07:25:29.554Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;view-source&quot;&gt;&lt;a href=&quot;#view-source&quot; class=&quot;headerlink&quot; title=&quot;view_source&quot;&gt;&lt;/a&gt;view_source&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/j7BNCHh.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;无法使用右键查看网页源代码&lt;/p&gt;
-&lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;α&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;在url中通过view-source-的方法来访问源码&quot;&gt;&lt;a href=&quot;#在url中通过view-source-的方法来访问源码&quot; class=&quot;headerlink&quot; title=&quot;在url中通过view-source:的方法来访问源码&quot;&gt;&lt;/a&gt;在url中通过view-source:的方法来访问源码&lt;/h4&gt;&lt;p&gt;/view-source是一种协议，早期基本上每个浏览器都支持这个协议。后来Microsoft考虑安全性，对于WindowsXP  pack2以及更高版本以后IE就不再支持此协议。但是这个方法在FireFox和Chrome浏览器都还可以使用。  如果要在IE下查看源代码,只能使用查看中的”查看源代码”命令./&lt;/p&gt;
     
     </summary>
     
