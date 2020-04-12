@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-08T14:38:44.122Z</updated>
+  <updated>2020-04-12T12:54:33.069Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>简陋的留言板界面</title>
+    <link href="http://yoursite.com/2020/04/11/%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2/"/>
+    <id>http://yoursite.com/2020/04/11/%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2/</id>
+    <published>2020-04-10T16:00:00.000Z</published>
+    <updated>2020-04-12T12:54:33.069Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-38-44.png&quot; alt=&quot;Snipaste_2020-04-09_21-38-44&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-39-04.png&quot; alt=&quot;Snipaste_2020-04-09_21-39-04&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-39-46.png&quot; alt=&quot;Snipaste_2020-04-09_21-39-46&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-39-56.png&quot; alt=&quot;Snipaste_2020-04-09_21-39-56&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-40-16.png&quot; alt=&quot;Snipaste_2020-04-09_21-40-16&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-40-29.png&quot; alt=&quot;Snipaste_2020-04-09_21-40-29&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-42-44.png&quot; alt=&quot;Snipaste_2020-04-09_21-42-44&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-42-56.png&quot; alt=&quot;Snipaste_2020-04-09_21-42-56&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-43-11.png&quot; alt=&quot;Snipaste_2020-04-09_21-43-11&quot;&gt;&lt;/p&gt;
+&lt;p&gt;结构&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-12_20-13-20.png&quot; alt=&quot;Snipaste_2020-04-12_20-13-20&quot;&gt;&lt;/p&gt;
+&lt;p&gt;数据库&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-44-48.png&quot; alt=&quot;Snipaste_2020-04-09_21-44-48&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-45-33.png&quot; alt=&quot;Snipaste_2020-04-09_21-45-33&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Demo" scheme="http://yoursite.com/categories/Demo/"/>
+    
+    
+      <category term="Demo" scheme="http://yoursite.com/tags/Demo/"/>
+    
+  </entry>
   
   <entry>
     <title>简陋的注册登录界面</title>
@@ -43,17 +77,17 @@
   </entry>
   
   <entry>
-    <title>简陋的文件上传</title>
-    <link href="http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/"/>
-    <id>http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</id>
+    <title>简陋的后台登陆界面</title>
+    <link href="http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/"/>
+    <id>http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/</id>
     <published>2020-03-27T16:00:00.000Z</published>
-    <updated>2020-03-31T00:53:37.741Z</updated>
+    <updated>2020-03-31T00:53:39.549Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-53-22.png&quot; alt=&quot;Snipaste_2020-03-29_20-53-22&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-56-29.png&quot; alt=&quot;Snipaste_2020-03-29_20-56-29&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-56-40.png&quot; alt=&quot;Snipaste_2020-03-29_20-56-40&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-19-1585489674661.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-19&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-45.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-45&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-57.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-57&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -66,17 +100,17 @@
   </entry>
   
   <entry>
-    <title>简陋的后台登陆界面</title>
-    <link href="http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/"/>
-    <id>http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/</id>
+    <title>简陋的文件上传</title>
+    <link href="http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/"/>
+    <id>http://yoursite.com/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</id>
     <published>2020-03-27T16:00:00.000Z</published>
-    <updated>2020-03-31T00:53:39.549Z</updated>
+    <updated>2020-03-31T00:53:37.741Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-19-1585489674661.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-19&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-45.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-45&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-57.png&quot; alt=&quot;Snipaste_2020-03-22_22-36-57&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-53-22.png&quot; alt=&quot;Snipaste_2020-03-29_20-53-22&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-56-29.png&quot; alt=&quot;Snipaste_2020-03-29_20-56-29&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-56-40.png&quot; alt=&quot;Snipaste_2020-03-29_20-56-40&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -160,16 +194,20 @@
   </entry>
   
   <entry>
-    <title>backup</title>
-    <link href="http://yoursite.com/2020/03/06/backup/"/>
-    <id>http://yoursite.com/2020/03/06/backup/</id>
+    <title>cookie</title>
+    <link href="http://yoursite.com/2020/03/06/cookie/"/>
+    <id>http://yoursite.com/2020/03/06/cookie/</id>
     <published>2020-03-05T16:00:00.000Z</published>
-    <updated>2020-03-09T07:27:29.587Z</updated>
+    <updated>2020-03-09T07:29:04.844Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;backup&quot;&gt;&lt;a href=&quot;#backup&quot; class=&quot;headerlink&quot; title=&quot;backup&quot;&gt;&lt;/a&gt;backup&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/eQ1rXd0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;h3 id=&quot;尝试&quot;&gt;&lt;a href=&quot;#尝试&quot; class=&quot;headerlink&quot; title=&quot;尝试&quot;&gt;&lt;/a&gt;尝试&lt;/h3&gt;&lt;h4 id=&quot;index-php-save&quot;&gt;&lt;a href=&quot;#index-php-save&quot; class=&quot;headerlink&quot; title=&quot;index.php.save&quot;&gt;&lt;/a&gt;index.php.save&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hIYytPH.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;h1 id=&quot;cookie&quot;&gt;&lt;a href=&quot;#cookie&quot; class=&quot;headerlink&quot; title=&quot;cookie&quot;&gt;&lt;/a&gt;cookie&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Jrb5zzg.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;α&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;使用Burpsuit进行抓包&quot;&gt;&lt;a href=&quot;#使用Burpsuit进行抓包&quot; class=&quot;headerlink&quot; title=&quot;使用Burpsuit进行抓包&quot;&gt;&lt;/a&gt;使用Burpsuit进行抓包&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/BBo9qRc.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/tcIoxDK.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -186,20 +224,16 @@
   </entry>
   
   <entry>
-    <title>cookie</title>
-    <link href="http://yoursite.com/2020/03/06/cookie/"/>
-    <id>http://yoursite.com/2020/03/06/cookie/</id>
+    <title>backup</title>
+    <link href="http://yoursite.com/2020/03/06/backup/"/>
+    <id>http://yoursite.com/2020/03/06/backup/</id>
     <published>2020-03-05T16:00:00.000Z</published>
-    <updated>2020-03-09T07:29:04.844Z</updated>
+    <updated>2020-03-09T07:27:29.587Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;cookie&quot;&gt;&lt;a href=&quot;#cookie&quot; class=&quot;headerlink&quot; title=&quot;cookie&quot;&gt;&lt;/a&gt;cookie&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Jrb5zzg.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;α&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;使用Burpsuit进行抓包&quot;&gt;&lt;a href=&quot;#使用Burpsuit进行抓包&quot; class=&quot;headerlink&quot; title=&quot;使用Burpsuit进行抓包&quot;&gt;&lt;/a&gt;使用Burpsuit进行抓包&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/BBo9qRc.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/tcIoxDK.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;h1 id=&quot;backup&quot;&gt;&lt;a href=&quot;#backup&quot; class=&quot;headerlink&quot; title=&quot;backup&quot;&gt;&lt;/a&gt;backup&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/eQ1rXd0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Writeup&quot;&gt;&lt;a href=&quot;#Writeup&quot; class=&quot;headerlink&quot; title=&quot;Writeup&quot;&gt;&lt;/a&gt;Writeup&lt;/h2&gt;&lt;h3 id=&quot;尝试&quot;&gt;&lt;a href=&quot;#尝试&quot; class=&quot;headerlink&quot; title=&quot;尝试&quot;&gt;&lt;/a&gt;尝试&lt;/h3&gt;&lt;h4 id=&quot;index-php-save&quot;&gt;&lt;a href=&quot;#index-php-save&quot; class=&quot;headerlink&quot; title=&quot;index.php.save&quot;&gt;&lt;/a&gt;index.php.save&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hIYytPH.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
