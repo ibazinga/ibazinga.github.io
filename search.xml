@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Merlin</title>
+    <url>/2020/04/17/Merlin/</url>
+    <content><![CDATA[<p>啊哈</p>
+]]></content>
+  </entry>
+  <entry>
     <title>简陋的留言板界面</title>
     <url>/2020/04/11/%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2/</url>
-    <content><![CDATA[<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-38-44.png" alt="Snipaste_2020-04-09_21-38-44"></p>
+    <content><![CDATA[<a id="more"></a>
+
+<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-38-44.png" alt="Snipaste_2020-04-09_21-38-44"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-39-04.png" alt="Snipaste_2020-04-09_21-39-04"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-39-46.png" alt="Snipaste_2020-04-09_21-39-46"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-39-56.png" alt="Snipaste_2020-04-09_21-39-56"></p>
@@ -17,8 +25,6 @@
 <p>数据库</p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-44-48.png" alt="Snipaste_2020-04-09_21-44-48"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E7%95%99%E8%A8%80%E6%9D%BF%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-04-09_21-45-33.png" alt="Snipaste_2020-04-09_21-45-33"></p>
-<a id="more"></a>
-
 <p>源码</p>
 <p>index.php</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;登陆&lt;/title&gt;</span><br><span class="line">&lt;meta charset=<span class="string">"UTF-8"</span>&gt;</span><br><span class="line">&lt;link rel=<span class="string">"stylesheet"</span> type=<span class="string">"text/css"</span> href=<span class="string">"./css/index1.css"</span>&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">body&#123;height:<span class="number">100</span>%;&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body style=<span class="string">"background: url(./images/timg7.jpg);"</span>&gt;</span><br><span class="line">&lt;div class="index_01"&gt; </span><br><span class="line">&lt;table style=<span class="string">"width: 100%;height:100%;"</span> &gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td align=<span class="string">"center"</span> &gt;</span><br><span class="line">      &lt;table align="center" width=350 height=230; class="index_table" &gt;  </span><br><span class="line">       &lt;form method =<span class="string">"POST"</span> action = <span class="string">"doloadling.php"</span> name=<span class="string">"frmLogin"</span>&gt; </span><br><span class="line">     &lt;tr align=<span class="string">"center"</span> style=<span class="string">"font-size:25px;"</span>&gt; </span><br><span class="line">           &lt;td colspan=<span class="string">"2"</span> style=<span class="string">"font-size:35px;"</span>&gt;用户登陆&lt;/td&gt;</span><br><span class="line">     &lt;/tr&gt;</span><br><span class="line">       &lt;tr&gt;  </span><br><span class="line">           &lt;td align=<span class="string">"center"</span> style=<span class="string">"font-size:25px;"</span>&gt;用户名&lt;/td&gt;  </span><br><span class="line">           &lt;td&gt;&lt;input type=<span class="string">"name"</span> maxlength=<span class="string">"16"</span> name=<span class="string">"uid"</span> placeholder=<span class="string">"请输入账号"</span> style=<span class="string">"width:180px;font-size:20px;border-radius: 8px; "</span>&gt;&lt;/td&gt;  </span><br><span class="line">       &lt;/tr&gt;  </span><br><span class="line">       &lt;tr&gt;  </span><br><span class="line">           &lt;td align=<span class="string">"center"</span> style=<span class="string">"font-size:25px;"</span>&gt;密   码&lt;/td&gt;  </span><br><span class="line">           &lt;td&gt;&lt;input name=<span class="string">"password"</span> type=<span class="string">"password"</span> maxlength=<span class="string">"16"</span> placeholder=<span class="string">"请输入密码"</span> style=<span class="string">"width:180px;font-size:20px;border-radius: 8px; "</span>&gt;&lt;/td&gt;</span><br><span class="line">       &lt;/tr&gt;</span><br><span class="line">       &lt;tr align=<span class="string">"center"</span>&gt; </span><br><span class="line">           &lt;td colspan=<span class="string">"2"</span>&gt;</span><br><span class="line">           &lt;input type="submit" name="denglu" value="登陆" class="btn"&gt;</span><br><span class="line">           &lt;input type="reset" name="rs" value="重置" class="btn"&gt;  </span><br><span class="line">           &lt;input type="button" name="zu" value="注册" onclick="window.location.href='register.php'" class="btn"&gt;  </span><br><span class="line">           &lt;/td&gt;  </span><br><span class="line">       &lt;/tr&gt; </span><br><span class="line">     &lt;/form&gt;</span><br><span class="line">     &lt;/table&gt;</span><br><span class="line">    &lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt; </span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
@@ -51,13 +57,14 @@
   <entry>
     <title>简陋的注册登录界面</title>
     <url>/2020/03/31/%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2/</url>
-    <content><![CDATA[<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-30_21-47-31.png" alt="Snipaste_2020-03-30_21-47-31"></p>
+    <content><![CDATA[<a id="more"></a>
+
+<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-30_21-47-31.png" alt="Snipaste_2020-03-30_21-47-31"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-30_21-46-48.png" alt="Snipaste_2020-03-30_21-46-48"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-30_21-47-53.png" alt="Snipaste_2020-03-30_21-47-53"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-30_21-48-40.png" alt="Snipaste_2020-03-30_21-48-40"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-30_21-50-26.png" alt="Snipaste_2020-03-30_21-50-26"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-31_08-27-08.png" alt="Snipaste_2020-03-31_08-27-08"></p>
-<a id="more"></a>
 <p>源码</p>
 <p>index.php</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">session_start();</span><br><span class="line">header(<span class="string">"Content-Type:text/html;charset=utf-8"</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br><span class="line">&lt;html&gt;</span><br><span class="line">	&lt;head&gt;</span><br><span class="line">		&lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">		&lt;title&gt;登陆&lt;/title&gt;</span><br><span class="line">		&lt;link href=<span class="string">"C.css"</span> rel=<span class="string">"stylesheet"</span> type=<span class="string">"text/css"</span> /&gt;</span><br><span class="line">	&lt;/head&gt;</span><br><span class="line"> &lt;body&gt;</span><br><span class="line">		&lt;div class="box"&gt; </span><br><span class="line">		&lt;h2&gt;Login&lt;/h2&gt;</span><br><span class="line">		&lt;form action=<span class="string">"check.php"</span> method=<span class="string">"post"</span> enctype=<span class="string">"multipart/form-data"</span>&gt;</span><br><span class="line">			&lt;div class="inputBox"&gt;&lt;input type="text" name="user" value="" required="required"placeholder=   "           请输入您的用户名"&gt;&lt;label&gt;用户名&lt;/label&gt;&lt;/div&gt;</span><br><span class="line">			&lt;div class="inputBox"&gt;&lt;input type="password" name="pass" value=""required="required"placeholder="           请输入您的密码"&gt;&lt;label&gt;密码&lt;/label&gt;&lt;/div&gt;</span><br><span class="line">			&lt;div class="inputBox"&gt;&lt;input type="text" width="100px" value="" name="codeNum" required="required"placeholder="           请输入验证码"&gt;&lt;label&gt;验证码&lt;/label&gt;&lt;/div&gt;</span><br><span class="line">			&lt;input type=<span class="string">"submit"</span> name=<span class="string">"submit"</span> value=<span class="string">"登录"</span>&gt;</span><br><span class="line">			&lt;input type=<span class="string">"button"</span> value=<span class="string">"注册"</span> onclick=<span class="string">"location.href='register.php'"</span>&gt;</span><br><span class="line">			&lt;img src=<span class="string">"code.php"</span> style=<span class="string">"width:100px;height:25px;"</span> id=<span class="string">"code"</span>/&gt;</span><br><span class="line">		&lt;/form&gt;</span><br><span class="line">		&lt;/div&gt;</span><br><span class="line">	&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
@@ -94,11 +101,11 @@
   <entry>
     <title>简陋的后台登陆界面</title>
     <url>/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2/</url>
-    <content><![CDATA[<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-19-1585489674661.png" alt="Snipaste_2020-03-22_22-36-19"></p>
+    <content><![CDATA[<a id="more"></a>
+
+<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-19-1585489674661.png" alt="Snipaste_2020-03-22_22-36-19"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-45.png" alt="Snipaste_2020-03-22_22-36-45"></p>
-<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-57.png" alt="Snipaste_2020-03-22_22-36-57"></p>
-<a id="more"></a>
-<p>源码</p>
+<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E5%90%8E%E5%8F%B0%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.assets/Snipaste_2020-03-22_22-36-57.png" alt="Snipaste_2020-03-22_22-36-57"><br>源码</p>
 <p>admin.html</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"zh-CN"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>Demo<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h3</span>&gt;</span>登录管理后台<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"admin.php"</span> <span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">enctype</span>=<span class="string">"multipart/form-data"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        账号：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"username"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        密码：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"password"</span> <span class="attr">name</span>=<span class="string">"password"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">name</span>=<span class="string">"登录"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>admin.php</p>
@@ -115,10 +122,11 @@
   <entry>
     <title>简陋的文件上传</title>
     <url>/2020/03/28/%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</url>
-    <content><![CDATA[<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-53-22.png" alt="Snipaste_2020-03-29_20-53-22"></p>
+    <content><![CDATA[<a id="more"></a>
+
+<p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-53-22.png" alt="Snipaste_2020-03-29_20-53-22"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-56-29.png" alt="Snipaste_2020-03-29_20-56-29"></p>
 <p><img src="%E7%AE%80%E9%99%8B%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.assets/Snipaste_2020-03-29_20-56-40.png" alt="Snipaste_2020-03-29_20-56-40"></p>
-<a id="more"></a>
 <p>源码</p>
 <p>upload.html</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"zh-CN"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>文件上传<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-class">.div</span>&#123; </span></span><br><span class="line">        margin: auto; </span><br><span class="line">        width: 300px; </span><br><span class="line">        height: 130px; </span><br><span class="line">        border: 1px solid rgb(12, 12, 12);</span><br><span class="line">    &#125; </span><br><span class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"div"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"upload_file.php"</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">enctype</span>=<span class="string">"multipart/form-data"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"file"</span>&gt;</span>Filename:<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> <span class="attr">name</span>=<span class="string">"file"</span> <span class="attr">id</span>=<span class="string">"file"</span> /&gt;</span> </span><br><span class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span><span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">name</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"Submit"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -142,12 +150,6 @@
       <tags>
         <tag>Demo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Merlin</title>
-    <url>/2020/03/09/Merlin/</url>
-    <content><![CDATA[<p>啊哈</p>
-]]></content>
   </entry>
   <entry>
     <title>Git全局初始化</title>
@@ -257,37 +259,6 @@
       </tags>
   </entry>
   <entry>
-    <title>cookie</title>
-    <url>/2020/03/06/cookie/</url>
-    <content><![CDATA[<h1 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h1><p><img src="https://i.imgur.com/Jrb5zzg.png" alt=""></p>
-<h2 id="Writeup"><a href="#Writeup" class="headerlink" title="Writeup"></a>Writeup</h2><ul>
-<li>α</li>
-</ul>
-<h4 id="使用Burpsuit进行抓包"><a href="#使用Burpsuit进行抓包" class="headerlink" title="使用Burpsuit进行抓包"></a>使用Burpsuit进行抓包</h4><p><img src="https://i.imgur.com/BBo9qRc.png" alt=""></p>
-<p><img src="https://i.imgur.com/tcIoxDK.png" alt=""></p>
-<a id="more"></a>
-<p><img src="https://i.imgur.com/6SillS2.png" alt=""></p>
-<p><img src="https://i.imgur.com/yVu20RK.png" alt=""></p>
-<ul>
-<li>β</li>
-</ul>
-<h4 id="使用-HTTP-Header-Live-拓展"><a href="#使用-HTTP-Header-Live-拓展" class="headerlink" title="使用 HTTP Header Live 拓展"></a>使用 HTTP Header Live 拓展</h4><p><img src="https://i.imgur.com/DpPsVxr.png" alt=""></p>
-<p><img src="https://i.imgur.com/6y6f0hR.png" alt=""></p>
-<p>flag=cyberpeace{34275870cbf633cfcc2f07a54fe5b16e}</p>
-<h2 id="了解cookie"><a href="#了解cookie" class="headerlink" title="了解cookie"></a>了解cookie</h2><p>Cookie 并不是它的原意“甜饼”的意思, 而是一个保存在客户机中的简单的文本文件, 这个文件与特定的 Web文档关联在一起, 保存了该客户机访问这个Web 文档时的信息, 当客户机再次访问这个 Web 文档时这些信息可供该文档使用。由于“Cookie”具有可以保存在客户机上的神奇特性, 因此它可以帮助我们实现记录用户个人信息的功能, 而这一切都不必使用复杂的CGI等程序 。举例来说, 一个 Web 站点可能会为每一个访问者产生一个唯一的ID, 然后以 Cookie 文件的形式保存在每个用户的机器上。如果使用浏览器访问 Web, 会看到所有保存在硬盘上的  Cookie。在这个文件夹里每一个文件都是一个由“名/值”对组成的文本文件,另外还有一个文件保存有所有对应的 Web 站点的信息。在这里的每个  Cookie 文件都是一个简单而又普通的文本文件。透过文件名, 就可以看到是哪个 Web  站点在机器上放置了Cookie(当然站点信息在文件里也有保存)</p>
-<p><a href="https://segmentfault.com/a/1190000016248401" target="_blank" rel="noopener">资料1</a></p>
-<p><a href="https://www.jianshu.com/p/6fc9cea6daa2" target="_blank" rel="noopener">资料2</a></p>
-]]></content>
-      <categories>
-        <category>α</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>Web</tag>
-        <tag>Writeup</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>backup</title>
     <url>/2020/03/06/backup/</url>
     <content><![CDATA[<h1 id="backup"><a href="#backup" class="headerlink" title="backup"></a>backup</h1><p><img src="https://i.imgur.com/eQ1rXd0.png" alt=""></p>
@@ -381,6 +352,37 @@ Allow: .htm$  仅允许访问以&quot;.htm&quot;为后缀的URL。
 Allow: .gif$  允许抓取网页和gif格式图片
 
 Sitemap:网站地图  告诉爬虫这个页面是网站地图</code></pre><p><a href="https://blog.csdn.net/zhangyingchengqi/article/details/83348900" target="_blank" rel="noopener">https://blog.csdn.net/zhangyingchengqi/article/details/83348900</a></p>
+]]></content>
+      <categories>
+        <category>α</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+        <tag>Web</tag>
+        <tag>Writeup</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cookie</title>
+    <url>/2020/03/06/cookie/</url>
+    <content><![CDATA[<h1 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h1><p><img src="https://i.imgur.com/Jrb5zzg.png" alt=""></p>
+<h2 id="Writeup"><a href="#Writeup" class="headerlink" title="Writeup"></a>Writeup</h2><ul>
+<li>α</li>
+</ul>
+<h4 id="使用Burpsuit进行抓包"><a href="#使用Burpsuit进行抓包" class="headerlink" title="使用Burpsuit进行抓包"></a>使用Burpsuit进行抓包</h4><p><img src="https://i.imgur.com/BBo9qRc.png" alt=""></p>
+<p><img src="https://i.imgur.com/tcIoxDK.png" alt=""></p>
+<a id="more"></a>
+<p><img src="https://i.imgur.com/6SillS2.png" alt=""></p>
+<p><img src="https://i.imgur.com/yVu20RK.png" alt=""></p>
+<ul>
+<li>β</li>
+</ul>
+<h4 id="使用-HTTP-Header-Live-拓展"><a href="#使用-HTTP-Header-Live-拓展" class="headerlink" title="使用 HTTP Header Live 拓展"></a>使用 HTTP Header Live 拓展</h4><p><img src="https://i.imgur.com/DpPsVxr.png" alt=""></p>
+<p><img src="https://i.imgur.com/6y6f0hR.png" alt=""></p>
+<p>flag=cyberpeace{34275870cbf633cfcc2f07a54fe5b16e}</p>
+<h2 id="了解cookie"><a href="#了解cookie" class="headerlink" title="了解cookie"></a>了解cookie</h2><p>Cookie 并不是它的原意“甜饼”的意思, 而是一个保存在客户机中的简单的文本文件, 这个文件与特定的 Web文档关联在一起, 保存了该客户机访问这个Web 文档时的信息, 当客户机再次访问这个 Web 文档时这些信息可供该文档使用。由于“Cookie”具有可以保存在客户机上的神奇特性, 因此它可以帮助我们实现记录用户个人信息的功能, 而这一切都不必使用复杂的CGI等程序 。举例来说, 一个 Web 站点可能会为每一个访问者产生一个唯一的ID, 然后以 Cookie 文件的形式保存在每个用户的机器上。如果使用浏览器访问 Web, 会看到所有保存在硬盘上的  Cookie。在这个文件夹里每一个文件都是一个由“名/值”对组成的文本文件,另外还有一个文件保存有所有对应的 Web 站点的信息。在这里的每个  Cookie 文件都是一个简单而又普通的文本文件。透过文件名, 就可以看到是哪个 Web  站点在机器上放置了Cookie(当然站点信息在文件里也有保存)</p>
+<p><a href="https://segmentfault.com/a/1190000016248401" target="_blank" rel="noopener">资料1</a></p>
+<p><a href="https://www.jianshu.com/p/6fc9cea6daa2" target="_blank" rel="noopener">资料2</a></p>
 ]]></content>
       <categories>
         <category>α</category>
